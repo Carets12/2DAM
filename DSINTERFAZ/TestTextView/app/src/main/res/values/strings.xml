@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestTextView</string>
+    <string name="miTextView">Lista Animales</string>
+    <string name="btnDelete" translatable="false">Borrar</string>
+    <string name="btnAdd">Añadir</string>
+    <string name="buChangedTitle">Cambiar Titulo </string>
+    <string name="btnChangeButton">Cambiar Boton</string>
+
+</resources>

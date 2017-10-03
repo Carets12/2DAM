@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<direccion>
+    <tipoVia>Calle</tipoVia>
+    <nombreVia>Luna</nombreVia>
+    <numero>8</numero>
+    <planta>3</planta>
+    <puerta>2</puerta>
+    <portal>44</portal>
+    <ciudad>Ubeda</ciudad>
+    <cp>23400</cp>
+    <pais>España</pais>
+    <provincia>Jaén</provincia>
+</direccion>

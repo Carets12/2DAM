@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<factura>
+    <direccionFacturacion>
+        <tipoVia>Calle</tipoVia>
+        <nombreVia>Luna</nombreVia>
+        <numero>8</numero>
+        <planta>3</planta>
+        <puerta>2</puerta>
+        <portal>44</portal>
+        <ciudad>Ubeda</ciudad>
+        <cp>23400</cp>
+        <pais>España</pais>
+        <provincia>Jaén</provincia>
+    </direccionFacturacion>
+    <cliente>
+        <nombre>Daniel</nombre>
+        <apellidos>Sierra Ráez</apellidos>
+        <email>Daniel@gmail.com</email>
+        <telefono>678765765</telefono>
+        <nif>26514356R</nif>
+        <id>12345678</id>
+        <direccion>
+            <tipoVia>Calle</tipoVia>
+            <nombreVia>Luna</nombreVia>
+            <numero>8</numero>
+            <planta>3</planta>
+            <puerta>2</puerta>
+            <portal>44</portal>
+            <ciudad>Ubeda</ciudad>
+            <cp>23400</cp>
+            <pais>España</pais>
+            <provincia>Jaén</provincia>
+        </direccion>
+    </cliente>
+    <productos>
+        <id>12345670</id>
+        <nombre>Martillo</nombre>
+        <descrip>utilidad</descrip>
+        <precio>12.0</precio>
+    </productos>
+    <id>32</id>
+    <fecha>2017-09-27T14:31:10.425+02:00</fecha>
+</factura>

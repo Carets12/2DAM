@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iesvirgendelcarmen.dam.ejercicio_01a">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Ejercicio_01A"
+            android:label = "EJ01A Primera Actividad">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ejercicio_01B"
+            android:label = "EJ01A Segunda Actividad">
+         </activity>
+        <activity android:name=".Ejercicio_01C"
+            android:label = "EJ01A Tercera Actividad">
+        </activity>
+        <activity android:name=".Ejercicio_01D"
+            android:label = "EJ01A Cuarta Actividad">
+        </activity>
+        <activity android:name=".Ejercicio_01E"
+            android:label = "EJ01A Quinta Actividad">
+        </activity>
+        <activity android:name=".Ejercicio_01F"
+            android:label = "EJ01A Sexta Actividad">
+        </activity>
+    </application>
+
+</manifest>

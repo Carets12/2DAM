@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<producto>
+    <id>12345670</id>
+    <nombre>Martillo</nombre>
+    <descrip>utilidad</descrip>
+    <precio>12.0</precio>
+</producto>
