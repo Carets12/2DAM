@@ -17,8 +17,9 @@ import org.w3c.dom.Node;
 public class ParsingXML {
         static Document documento;
         
-        static void recursiveWalker(Node nodo){
-            if(nodo.hasChildNodes()){
+        static void recursiveWalker(Node nodo){            
+            
+           if(nodo.hasChildNodes()){
                 recursiveWalker(nodo.getFirstChild());
             }
             do{
@@ -33,7 +34,7 @@ public class ParsingXML {
                 nodo = nodo.getNextSibling();
                 //Aqui proceso el nodo actual
             } while(nodo.getNextSibling() !=null);
-           
+          
         }
 
     /**
