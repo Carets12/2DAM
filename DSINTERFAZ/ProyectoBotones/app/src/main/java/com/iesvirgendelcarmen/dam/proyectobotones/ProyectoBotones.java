@@ -4,19 +4,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 public class ProyectoBotones extends AppCompatActivity implements View.OnLongClickListener ,
-        View.OnClickListener {
+        View.OnClickListener, CompoundButton.OnCheckedChangeListener {
 
     private int numero = 0;
-    private int suma10 = 10;
     private TextView tn;
+    private LinearLayout mainLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_proyecto_botones);
+
 
         tn = (TextView) findViewById(R.id.numero);
         tn.setText(numero + "");
@@ -28,6 +33,17 @@ public class ProyectoBotones extends AppCompatActivity implements View.OnLongCli
         btnDec.setOnClickListener(this);
         btnInc.setOnLongClickListener(this);
         btnDec.setOnLongClickListener(this);
+
+        Switch tSwitch = (Switch) findViewById(R.id.tSwitch);
+        tSwitch.setOnCheckedChangeListener(this
+        );
+        ToggleButton tBtn = (ToggleButton) findViewById(R.id.toggleButton);
+        tBtn.setOnCheckedChangeListener(this);
+        tBtn.setChecked(true);
+
+
+
+
         /*
         btnInc.setOnClickListener(new View.OnClickListener() {
 
@@ -49,6 +65,8 @@ public class ProyectoBotones extends AppCompatActivity implements View.OnLongCli
         });*/
 
     }
+
+
 
     @Override
     public void onClick(View view) {
@@ -88,6 +106,16 @@ public class ProyectoBotones extends AppCompatActivity implements View.OnLongCli
         }
 
         return false;
+    }
+
+    @Override
+    public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+        if (b) {
+            mainLayout = (LinearLayout) findViewById(R.id.mainLayaout);
+            mainLayout.setBackgroundColor(getResources().getColor(R.color.colorON));
+        }else{
+            mainLayout.setBackgroundColor(getResources().getColor(R.color.colorOFF));
+        }
     }
 }
 

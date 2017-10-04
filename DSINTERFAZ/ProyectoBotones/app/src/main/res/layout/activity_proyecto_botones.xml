@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:id="@+id/mainLayaout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorON"
 
     >
 
@@ -15,17 +17,54 @@
         android:textSize="40sp"
         />
 
-    <Button
-        android:id="@+id/inc"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/inc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inc"
+            />
+
+        <Button
+            android:id="@+id/decremental"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/decremental"
+            />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/toogleButtonOff"
+            android:textOn="@string/toogleButtonOn"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <Switch
+        android:id="@+id/tSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/inc"
+        android:textOff="@string/toogleButtonOff"
+        android:textOn="@string/toogleButtonOn"
+        android:checked="true"
         />
 
-    <Button
-        android:id="@+id/decremental"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/decremental"
+        android:src="@android:drawable/btn_star"
+        android:background="@android:color/transparent"
         />
+
+
 </LinearLayout>

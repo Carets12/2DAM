@@ -3,4 +3,6 @@
     <string name="inc">incremental</string>
     <string name="numero">numero</string>
     <string name="decremental">decremental</string>
+    <string name="toogleButtonOff">Apagado</string>
+    <string name="toogleButtonOn">Encendido</string>
 </resources>
