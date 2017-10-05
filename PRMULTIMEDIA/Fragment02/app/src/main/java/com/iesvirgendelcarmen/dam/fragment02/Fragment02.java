@@ -21,7 +21,7 @@ public class Fragment02 extends AppCompatActivity implements View.OnClickListene
         btn.setOnClickListener(this);
 
     }
-    
+
     @Override
     public void onClick(View view) {
         switch (view.getId()){
