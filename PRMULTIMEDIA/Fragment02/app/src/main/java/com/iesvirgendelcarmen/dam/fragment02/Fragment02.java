@@ -4,33 +4,38 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.view.Display;
+import android.view.Surface;
+import android.view.WindowManager;
 
-public class Fragment02 extends AppCompatActivity implements View.OnClickListener {
 
-    FragmentManager FM = getSupportFragmentManager();
-    FragmentTransaction FT = FM.beginTransaction();
-    Fragmento1 fragment = new Fragmento1();
+public class Fragment02 extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment02);
 
-        Button btn = (Button) findViewById(R.id.btn);
-        btn.setOnClickListener(this);
+        FragmentManager FM = getSupportFragmentManager();
+        FragmentTransaction FT = FM.beginTransaction();
+        WindowManager WM = getWindowManager();
+        Display DP = WM.getDefaultDisplay();
 
-    }
+        final Fragmento1 fragmento1 = new Fragmento1();
+        final Fragmento2 fragmento2 = new Fragmento2();
 
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.btn:
 
-                FT.add(R.id.contenedor, fragment);
-                FT.commit();
+        if (DP.getRotation() == Surface.ROTATION_90){
 
+            FT.replace(R.id.contenedor, fragmento1).commit();
+
+        }else{
+
+            FT.replace(R.id.contenedor, fragmento2).commit();
         }
+
+        FT.replace(R.id.contenedor, fragmento1);
     }
+
 }
 
