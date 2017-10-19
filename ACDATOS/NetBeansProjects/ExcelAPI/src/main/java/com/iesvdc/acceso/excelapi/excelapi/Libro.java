@@ -72,8 +72,18 @@ public class Libro {
     }
     
     public void load(String filename){
+        this.nombreArchivo = filename;
+        this.load();
+    }
+    
+    public void save(){
         
     }
     
+    public void save(String filename){
+        this.nombreArchivo = filename;
+        this.save();
+        
+    }
     
 }
