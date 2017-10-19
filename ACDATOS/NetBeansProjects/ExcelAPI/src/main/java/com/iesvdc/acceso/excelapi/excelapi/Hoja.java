@@ -1,6 +1,4 @@
-/*
 
- */
 package com.iesvdc.acceso.excelapi.excelapi;
 
 /**
@@ -13,21 +11,28 @@ public class Hoja {
     
     private String[][] datos;
     private String titulo;
+    
+    /**
+     * Crea una hoja de calculo nueva
+     */
 
     public Hoja() {
-        this.datos = new String[0][0];
+        this.datos = new String[5][5];
         this.titulo = "";
         
     }
     
+    /**
+    *Crea una hoja nueva de tamaño nFilas por nColumnas
+    *@param nFilas el número de celdas que iene cada fila
+    *@param nColumnas el número de celdas que tiene cada fila
+    */
     
-
     public Hoja(int nFilas, int nColumnas) {
         this.datos = new String[nFilas][nColumnas];
         this.titulo="";
         
     }
-    
     
     public Hoja(String titulo, int nFilas, int nColumnas) {
         this.datos = new String[nFilas][nColumnas];

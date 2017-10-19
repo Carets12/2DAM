@@ -9,10 +9,9 @@ import java.io.IOException;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 
-
 /**
  *
- * @author matinal
+ * @author Daniel Sierra Ráez
  */
 
 public class HolaMundoExcel {
