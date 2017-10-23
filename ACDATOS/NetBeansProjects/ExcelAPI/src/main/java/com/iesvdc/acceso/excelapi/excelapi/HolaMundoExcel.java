@@ -22,17 +22,18 @@ public class HolaMundoExcel {
     public static void main(String[] args) {
         
         SXSSFWorkbook wb = new SXSSFWorkbook();
-        
+    
         Sheet sh = wb.createSheet("HOLA MUNDO");
-        
+
         for (int i = 0; i < 10; i++) {
             Row row = sh.createRow(i);
-            for (int j = 0; j < 10; j++) {
+            for (int j = 0; j < 10 ; j++) {
                 Cell cell = row.createCell(j);
-                cell.setCellValue((char)('A'+j)+" "+(i+1));                
+                cell.setCellValue((char)('A'+j)+" "+(i+1));      
+
             }
-        }
-        
+        }   
+         
         try {
             FileOutputStream out = new FileOutputStream("holaMundoExcel.xlsx");
             wb.write(out);

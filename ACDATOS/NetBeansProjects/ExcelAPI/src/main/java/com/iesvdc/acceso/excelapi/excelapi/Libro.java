@@ -1,8 +1,14 @@
 
 package com.iesvdc.acceso.excelapi.excelapi;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 
 /**
  *Esta clase almacena información de libros para generar ficheros de Excel.
@@ -13,6 +19,7 @@ import java.util.List;
 public class Libro {
     private List<Hoja> hojas;
     private String nombreArchivo;
+    private Hoja hoja = new Hoja();
 
     public Libro() {
         this.hojas = new ArrayList<>();
@@ -76,14 +83,52 @@ public class Libro {
         this.load();
     }
     
-    public void save(){
+    public void save() throws ExcelAPIException{       
+        SXSSFWorkbook wb = new SXSSFWorkbook();
+    
+        //Sheet sh = wb.createSheet("Hola Mundo"); 
+        /*for (int i = 0; i < this.hojas.size(); i++){
+            Hoja hoja = this.hojas.get(i);
+        }*/
+        for (Hoja hoja: this.hojas) {  
+             Sheet sh = wb.createSheet(hoja.getTitulo());             
+            for (int i = 0; i < hoja.getFilas(); i++) {
+                Row row = sh.createRow(i);
+                for (int j = 0; j < hoja.getColumnas(); j++) {
+                    Cell cell = row.createCell(j);
+                    cell.setCellValue(hoja.getDatos(i, j));                          
+                }
+            }   
+        }            
+                
+        try (FileOutputStream out = new FileOutputStream(this.nombreArchivo)) {         
+            wb.write(out);
+            
+           // out.close();                        
+        } catch (IOException ex) {
+            // Logger.getLogger(HolaMundoExcel.class.getName()).log(Level.SEVERE, null, ex);
+            /*System.out.println("ERROR al crear el archivo: "+
+                    ex.getLocalizedMessage());*/
+            throw new ExcelAPIException("Error al guardar el arhivo");
+        } finally {
+            wb.dispose();
+        }
         
     }
     
-    public void save(String filename){
+    public void save(String filename) throws ExcelAPIException{
         this.nombreArchivo = filename;
         this.save();
         
+    }
+    
+    private void testExtension(){
+        if ((hoja.getTitulo()) == (nombreArchivo = "*.xlsx")){
+            
+        }
+        String titulo = hoja.getTitulo();
+       // titulo = nombreArchivo.subString(nombreArchivo.length -3, nombreArchivo.length);
+    //xls.xlsx
     }
     
 }

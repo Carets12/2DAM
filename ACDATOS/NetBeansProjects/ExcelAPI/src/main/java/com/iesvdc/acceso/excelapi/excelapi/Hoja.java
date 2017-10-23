@@ -51,7 +51,7 @@ public class Hoja {
     public String getDatos(int fila, int columna) throws ExcelAPIException {
         //TO-DO excepción si accedemos a una posición no válida "if, lanzar excepción y return"
         //ni mayor de 5 ni menor de 0
-        if((fila < 0 || columna < 0) && (fila > 5 || columna > 5)){
+        if(fila < 0 || columna < 0 || fila > this.nFilas || columna > this.nColumnas){
            throw new ExcelAPIException("Hoja()::getDatos(fila,columna): Posición no válida ");
         }
         return datos[fila][columna];
@@ -59,7 +59,7 @@ public class Hoja {
 
     public void setDatos(String dato, int fila, int columna) throws ExcelAPIException {
         //TO-DO excepción si accedemos a una posición no válida "if, lanzar excepción"
-        if((fila < 0 || columna < 0) && (fila > 5 || columna > 5)){
+        if(fila < 0 || columna < 0 || fila > this.nFilas || columna > this.nColumnas){
            throw new ExcelAPIException("Hoja()::setDatos(dato,fila,columna): Posición no válida ");
         }
         this.datos[fila][columna] = dato;
