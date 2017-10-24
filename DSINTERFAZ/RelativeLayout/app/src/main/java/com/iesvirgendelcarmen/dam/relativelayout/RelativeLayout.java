@@ -1,13 +1,13 @@
-package com.iesvirgendelcarmen.dam.linearlayoutdemo;
+package com.iesvirgendelcarmen.dam.relativelayout;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class RelativeLayout extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_form_relative);
+        setContentView(R.layout.activity_relative_layout);
     }
 }
