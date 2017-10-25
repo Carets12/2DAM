@@ -2,3 +2,5 @@
 *.swo 
 *.swp
 
+/ACDATOS/NetBeansProjects/ExcelAPI/nbproject/
+/ACDATOS/NetBeansProjects/ExcelAPI/target/

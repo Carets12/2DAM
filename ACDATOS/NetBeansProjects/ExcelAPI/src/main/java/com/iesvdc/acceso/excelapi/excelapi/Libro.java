@@ -21,6 +21,7 @@ public class Libro {
     private String nombreArchivo;
     private Hoja hoja = new Hoja();
 
+    
     public Libro() {
         this.hojas = new ArrayList<>();
         this.nombreArchivo = "nuevo.xlsx";
@@ -119,13 +120,16 @@ public class Libro {
     public void save(String filename) throws ExcelAPIException{
         this.nombreArchivo = filename;
         this.save();
-        
+
     }
     
     private void testExtension(){
-        if ((hoja.getTitulo()) == (nombreArchivo = "*.xlsx")){
+
+        int i = this.nombreArchivo.lastIndexOf('.');
+        if (i > 0){
             
         }
+        //
         String titulo = hoja.getTitulo();
        // titulo = nombreArchivo.subString(nombreArchivo.length -3, nombreArchivo.length);
     //xls.xlsx

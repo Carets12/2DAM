@@ -49,8 +49,9 @@ public class Hoja {
     }
 
     public String getDatos(int fila, int columna) throws ExcelAPIException {
-        //TO-DO excepción si accedemos a una posición no válida "if, lanzar excepción y return"
-        //ni mayor de 5 ni menor de 0
+        /** TO-DO excepción si accedemos a una posición no válida al obtener los datos
+        * "if, lanzar excepción y return"
+        * ni mayor de 5 ni menor de 0 */
         if(fila < 0 || columna < 0 || fila > this.nFilas || columna > this.nColumnas){
            throw new ExcelAPIException("Hoja()::getDatos(fila,columna): Posición no válida ");
         }
@@ -58,7 +59,8 @@ public class Hoja {
     }
 
     public void setDatos(String dato, int fila, int columna) throws ExcelAPIException {
-        //TO-DO excepción si accedemos a una posición no válida "if, lanzar excepción"
+        /** TO-DO excepción si accedemos a una posición no válida al insertar los datos
+         * "if, lanzar excepción" */
         if(fila < 0 || columna < 0 || fila > this.nFilas || columna > this.nColumnas){
            throw new ExcelAPIException("Hoja()::setDatos(dato,fila,columna): Posición no válida ");
         }
@@ -79,6 +81,30 @@ public class Hoja {
 
     public int getColumnas() {
         return nColumnas;
+    }
+    
+    public boolean compare(Hoja hoja) throws ExcelAPIException{
+        boolean iguales = true;
+        
+        if(this.nColumnas == hoja.getColumnas() && this.nFilas == hoja.getFilas() 
+                && this.titulo.equals(hoja.getTitulo())){
+            
+            for (int i = 0; i < this.nFilas; i++) {
+                for (int j = 0; j < this.nColumnas; j++) {
+                    
+                    if (!this.datos[i][j].equals(hoja.getDatos(i, j))){                      
+                        return false;                        
+                    }
+                    
+                }                
+                if(!iguales) break;                                          
+            }
+            
+        }else{
+            iguales = false;
+        }
+        
+        return iguales;
     }
      
 }
