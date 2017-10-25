@@ -1,7 +1,6 @@
 package com.iesvirgendelcarmen.dam.fragment09;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,14 +12,16 @@ import android.widget.ArrayAdapter;
  */
 
 public class Fragmento3 extends ListFragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragmento3, container, false);
+        return inflater.inflate(R.layout.fragmento3,container,false);
     }
 
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        //setListAdapter(new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,Contenido.pintores));
+
         int tipoLista = (int) (Math.random()*3);
         switch (tipoLista) {
             case 0:
@@ -33,5 +34,7 @@ public class Fragmento3 extends ListFragment {
                 setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, Contenido.arquitectos));
                 break;
         }
+
+        super.onViewCreated(view, savedInstanceState);
     }
 }

@@ -12,10 +12,9 @@ import android.view.ViewGroup;
  */
 
 public class Fragmento1 extends Fragment {
-
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragmento1, container, false);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragmento1,container,false);
     }
 }

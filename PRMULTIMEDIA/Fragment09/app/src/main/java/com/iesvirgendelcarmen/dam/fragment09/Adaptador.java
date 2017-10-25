@@ -11,7 +11,9 @@ import java.util.List;
  */
 
 public class Adaptador extends FragmentPagerAdapter {
+
     private List<Fragment> fragmentos;
+
     public Adaptador(FragmentManager fm, List<Fragment> fragmentos) {
         super(fm);
         this.fragmentos = fragmentos;
@@ -21,7 +23,6 @@ public class Adaptador extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         return fragmentos.get(position);
     }
-
 
     @Override
     public int getCount() {
