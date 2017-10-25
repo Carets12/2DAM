@@ -10,6 +10,8 @@ import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.io.Serializable;
+
 /**
  * Created by danic on 24/10/2017.
  */

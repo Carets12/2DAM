@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.io.Serializable;
+
 /**
  * Created by danic on 24/10/2017.
  */
@@ -22,7 +24,7 @@ public class Contenido extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.activity_fragment08, container,false);
+        return inflater.inflate(R.layout.fragmentos, container,false);
 
     }
 

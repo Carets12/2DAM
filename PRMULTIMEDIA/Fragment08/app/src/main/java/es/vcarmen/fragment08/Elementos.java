@@ -1,10 +1,13 @@
 package es.vcarmen.fragment08;
 
+import java.io.Serializable;
+
 /**
  * Created by danic on 24/10/2017.
  */
 
 public class Elementos {
+
     static String[] Cabeceras = {
             "MICHELANGELO BUONARROTI",
             "LEONARDO DA VINCI",

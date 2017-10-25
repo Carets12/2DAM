@@ -1,0 +1,7 @@
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorFragPag2">#DCE955</color>
+    <color name="colorFragPag1">#D784E8</color>
+</resources>

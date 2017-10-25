@@ -8,22 +8,32 @@ import android.widget.Toast;
 
 import java.io.Serializable;
 
-public class Fragment08 extends FragmentActivity implements Cabecera.CabeceraListener, Serializable {
+public class Fragment08 extends FragmentActivity implements Cabecera.CabeceraListener {
+
+    Cabecera primerFragmento;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment08);
 
-        Cabecera primerFragmento = new Cabecera();
+        if(savedInstanceState != null){
+
+            primerFragmento = new Cabecera();
+
+            return ;
+        }
+
+        primerFragmento = new Cabecera();
 
         primerFragmento.setArguments(getIntent().getExtras());
 
         getSupportFragmentManager().beginTransaction().add(R.id.contenedor,primerFragmento).commit();
 
-        if(savedInstanceState != null){
-            return;
-        }
+
+
+
     }
 
     public void tocado(int position){
@@ -39,6 +49,8 @@ public class Fragment08 extends FragmentActivity implements Cabecera.CabeceraLis
         FT.commit();
     }
 
-
-
+/*    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }*/
 }
