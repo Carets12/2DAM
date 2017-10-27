@@ -5,8 +5,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
-import android.webkit.WebViewFragment;
 import android.widget.BaseAdapter;
 /**
  * Created by matinal on 25/10/17.
@@ -18,7 +16,6 @@ public abstract class Adaptador extends BaseAdapter {
     private ArrayList<?> entradas;
     private int R_layout_IdView;
     private Context contexto;
-
 
     public Adaptador(Context contexto, int R_layout_IdView, ArrayList<?> entradas) {
         super();
