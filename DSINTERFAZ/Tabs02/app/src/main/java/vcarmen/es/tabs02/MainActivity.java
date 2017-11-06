@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 res.getDrawable(R.drawable.icon_musica_tab));
         Intent songsIntent = new Intent(this, Musica.class);
         musicaspec.setContent(songsIntent);
-        TabSpec videospec = tabs.newTabSpec("videos");
+        TabHost.TabSpec videospec = tabs.newTabSpec("videos");
         videospec.setIndicator("",
                 res.getDrawable(R.drawable.icon_videos_tab));
         Intent videosIntent = new Intent(this, Videos.class);
@@ -35,4 +35,4 @@ public class MainActivity extends AppCompatActivity {
         tabs.addTab(videospec);
     }
 }
-}
+
