@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>JavaScript | LMSGI</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel='stylesheet'  href='https://sites.google.com/site/bloggeameblggr/mis-archivos-bblggr/bblggr6.css'  type='text/css' />
+
+        <!-- FAVICON -->
+        <link rel="icon" type="image/png" href="/img/favicon2.png"/>
+
+        <!--ARCHIVOS CSS-->
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/css_javascript.css" type="text/css">
+
+        <!--FUENTES-->
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
+
+        <!--ICONOS-->
+
+        <script src="https://use.fontawesome.com/0964eb85ca.js"></script>
+
+    </head>
+
+<body id="fondo">
+
+    <nav class="navbar navbar-static-top navbar-default navigationbar" role="navigation">
+
+    <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle menubutton" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+
+    
+        <div class="collapse navbar-collapse navbar-ex1-collapse navigationbar-collapsed">
+
+            <ul class="nav navbar-nav navbar-left navigationletters navbarcolors">
+
+                <li><a class="start" href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Inicio</a></li>
+                <li><a href="html5.html">HTML5</a></li>
+                <li><a href="css.html">CSS3</a></li>
+                <li><a href="#">JAVASCRIPT</a></li>
+                <li><a href="json.html">JSON</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-left dropdownacolor">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle otherdd" data-toggle="dropdown">
+                    MÁS<b class="caret"></b></a>
+                    
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <li><a href="contactos.html">Sobre nosotros</a></li>
+                        <li><a href="bibliografia.html">Bibliografía</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center ">
+        <div class="row content ">
+            <div class="col-sm-2 sidenav1 menuizquierda">
+
+                <p class="indicetext"><strong>Indice contenidos</strong></p>
+                <p><a href="#section" class="colorenlace"><b>Historia JavaScript</b></a></p>
+                <p><a href="#section1" class="colorenlace"><b>Variables</b></a></p>
+                <p><a href="#section2" class="colorenlace"><b>Estructuras de Control</b></a></p>
+            </div>
+            <div class="col-sm-8 text-left">
+                <div class="jumbotron caja">
+                    <a name="section" id="HistoriaJavaScript"></a>
+                    <h1>Historia JavaScript</h1>
+                    <p>A principios de los años 90, el acceso a Internet se hacia con módems a una velocidad máxima de 28.8 kbps.</p>
+                    <br>
+                    <p>Empezaron a desarrollarse aplicaciones web cada vez más complejas y una velocidad de navegación tan lenta, surgió la necesidad de un lenguaje de programación que se ejecutara en el navegador del usuario. De esta forma, si el usuario
+                        no rellenaba correctamente un formulario, no se le hacía esperar mucho tiempo hasta que el servidor volviera a mostrar el formulario indicando los errores existentes.
+                    </p>
+                    <br>
+                    <p>Brendan Eich, un programador que trabajaba en Netscape, pensó que podría solucionar este problema adaptando otras tecnologías existentes (como ScriptEase) al navegador Netscape Navigator 2.0, que iba a lanzarse en 1995. Inicialmente,
+                        Eich denominó a su lenguaje LiveScript.
+                    </p>
+                    <p>Posteriormente, Netscape firmó una alianza con Sun Microsystems para el desarrollo del nuevo lenguaje de programación.Además, justo antes del lanzamiento Netscape decidió cambiar el nombre por el de JavaScript. La razón del cambio
+                        de nombre fue exclusivamente por marketing, ya que Java era la palabra de moda en el mundo informático y de Internet de la época.
+                    </p>
+                </div>
+                <hr>
+                <div class="jumbotron caja">
+                    <a name="section1" id="Variables"></a>
+                    <h1>Variables</h1>
+                    <p>El lenguaje JavaScript utiliza la palabra reservada 'var' para crear variables, una vez declarado una variable por ejemplo 'var numero = 0', sí posteriormente queremos volver a utilizar la variable con indicar solamente el nombre es
+                        suficiente. Podemos definir variable declarada y no declarada, es decir, una variable es declarada cuando se le da un valor como en el ejemplo anterior, y no declara si no se le asigna a la variable un valor.
+                    </p>
+                    <br>
+                    <p>Las variables las podemos encontrar en cualquier lenguaje de programación (java, c++ , etc) la finalidad de una variable consiste en asignar un nombre (identificador) a un determinado valor. El identificador tiene que cumplir unos
+                        requisitos, en el caso de JavaScript son las siguientes:
+                    </p>
+                    <br>
+                    <p ALIGN="center">- Sólo admite letras minúsculas, mayúsculas, números o el símbolo _ (guion bajo)</p>
+                    <p ALIGN="center">- Debe empezar con letras o el guion bajo</p>
+                    <p ALIGN="center">- Como máximo se pueden utilizar 31 caracteres</p>
+                    <p ALIGN="center">- Se pueden utilizar letras Unicode (es válido el identificador año</p>
+                    <br>
+                    <p>Existen varios tipos de variables (numericos, cadenas de texto, booleanos, arrays) que veremos a continuación:</p>
+                    <h3><u>Numéricos</u></h3>
+                    <br>
+                    <p>La variables de tipo numérico se utilizan para almacenar numeros existen los de tipo entero(integer) y los de tipo decimal(float), las variables de tipo decimal utiliza el carácter “.” Para separar la parte entera de la decimal.</p>
+                    <br>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <br>
+                    <p ALIGN="center">
+                        <font color="blue"> var iva = 12; // variable tipo entero </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue">var total = 12.65; // variable tipo decimal</font>
+                    </p>
+                    <br>
+                    <h3><u>Cadenas de texto</u></h3>
+                    <p>A diferencia de la variable numerica, la variable cadenas de texto se utilizan para almacenar caracteres, palabras y/o frases de texto. Una forma de identificar si es un cadena de texto es viendo si la variable está definida entre
+                        comillas dobles o simples, indican su comienzo y su final.</p>
+                    <br>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <br>
+                    <p ALIGN="center">
+                        <font color="blue"> var mensaje = "Bienvenido a nuestro sitio web"; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue">var nombreProducto = 'Producto ABC';</font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue">var letraSeleccionada = 'c';</font>
+                    </p>
+                    <br>
+                    <p>El objeto String() de JavaScript dispone de varios métodos y propiedades que nos permitirán realizar operaciones útiles con cadenas, que a continuación te describimos:</p>
+                    <br>
+                    <p>Convertir mayúsculas y minúsculas (Los métodos toLowerCase() y toUpperCase() devuelven una cadena convertida a minúsculas y mayúsculas, respectivamente).</p>
+                    <br>
+                    <p>Obtener la longitud de una cadena(Con la propiedad length obtendremos la longitud de una cadena (espacios incluidos)).</p>
+                    <br>
+                    <p>Unir o concatenar cadenas (Normalmente podemos unir cadenas (concatenarlas, es decir, unir) usando el operador ' + ') del siguiente modo:</p>
+                    <br>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <br>
+                    <p ALIGN="center">
+                        <font color="blue"> var mensaje = "Bienvenido"; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> var mensaje2 = "a este tutorial"; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> var resultado = (mensaje + mensaje2); </font>
+                    </p>
+                    <br>
+                    <p>Convertir a cadena de caracteres (Podemos convertir un número a cadena concatenando un número con una cadena usando el operador '+', o bien con la función String().</p>
+                    <br>
+                    <h3><u>Booleanos</u></h3>
+                    <p>Las variables de tipo boolean o booleano también se conocen con el nombre de variables de tipo lógico, tienen la misma funcionalidad que en el lenguaje de programación C++. </p>
+                    <br>
+                    <p>Una variable de tipo lógico o booleano no sirve para almacenar números, cadenas de caracteres, etc, solo sirve para almacenar una valor lógico: True(Verdadero) o False (Falso):</p>
+                    <p ALIGN="center">
+                        <font color="blue"> var clienteRegistrado = false; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> var ivaIncluido = true; </font>
+                    </p>
+                    <h3><u>Arrays</u></h3>
+                    <p>Al igual que en muchos lenguajes de programación (los arrays en C++ son identificados como arreglos, vectores o matrices, como podemos ver en JavaScript tambíen son identificados con ese mismo fin), pero el término mas utilizado es
+                        array o vector.</p>
+                    <br>
+                    <p>En un array su contenido puede ser del mismo tipo o diferente. Lo podemos ver con un ejemplo</p>
+                    <br>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <p ALIGN="center">Si un profesor necesita almacenar las notas del primer examen de los 10 alumnos de la clase, el array sería de la siguiente manera(pero este código es poco eficiente, pero no incorrecto):</p>
+                    <p ALIGN="center">
+                        <font color="blue"> var nota1 = 5; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> var nota2 = 8; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> ... </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> var nota10 = 7.3; </font>
+                    </p>
+                    <br>
+                    <p><b><i>¿Por que decimos que el código anterior es poco eficiente?</b></i>
+                    </p>
+                    <br>
+                    <p>La explicación de que es poco eficiente es debido a que si queremos saber el nombre de toda la población de Jaén tendríamos que crear una gran cantidad de variables.</p>
+                    <p>Entonces lo correcto sería crear una variable que almacenara toda la información que queremos.</p>
+                    <p>var nombres = ["Jesús", "Carlos", "Pepito", "Dani", "Jose"...];</p>
+                    <p>Ahora, una única variable llamada nombres almacena todos los valores relacionados entre sí, en este caso los nombres de una población. </p>
+                    <p>La definición de un array se realiza entre corchetes([]) y para indicar su comienzo y su final se utiliza el carácter , (coma) para separar los elementos del interior del array:</p>
+                    <p>var nombre_array = [valor1, valor2, ..., valorN];</p>
+                    <p>Por defecto en programación las posiciones del vector empiezan en (0...n), y esta característica de la programación al comienzo de programar es propenso de un error, pero una vez definido el vector es muy fácil acceder a la posición
+                        que que queremos ver un contenido.</p>
+                    <p ALIGN="center">
+                        <font color="blue"> var diaSeleccionado = dias[0]; // diaSeleccionado = "Lunes" </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> var otroDia = dias[5]; // otroDia = "Sábado" </font>
+                    </p>
+                </div>
+                <div class="jumbotron caja">
+                    <a name="section2" id="EstructuraDeControl"></a>
+                    <h1>Estructuras de Control</h1>
+                    <p>Las estructuras de control se utilizan para aplicar unas funciones u otras según las condiciones que nosotros queramos establecer, si no fuera por esto solo podríamos ejecutar una instrucción después de otra.</p>
+                    <p>Para realizar este tipo de programas son necesarias las estructuras de control de flujo, que son instrucciones del tipo "si se cumple esta condición, hazlo; si no se cumple, haz esto otro". También existen instrucciones del tipo "repite
+                        esto mientras se cumpla esta condición".</p>
+                    <p>Cuando un programa lleva esta estructura deja de ser sucesión lineal y pasa a llamarse programa “inteligente”.</p>
+                    <p>Permiten controlar el flujo de un programa, tomar decisiones dependiendo del estado de una variable, repetir instrucciones o acciones un número determinado de veces, etc. En general las estructuras de control son 3:</p>
+                    <ol>
+                        <li><b>Estructuras condicionales</b></li>
+                        <li>
+                            <b>Estructuras de Repetición</b>
+                        </li>
+                    </ol>
+
+                    <a href="https://www.youtube.com/embed/bo23w5-klD8" class="videolink">Ver video condicionales en YouTube</a>
+                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/bo23w5-klD8" frameborder="0" allowfullscreen></iframe>
+
+                    <h2>Estructuras Condicionales</h2>
+                    <h3><u>Estructura if</u></h3>
+                    <p>Se emplea para tomar decisiones en función de una condición. Su definición formal es:</p>
+                    <p ALIGN="center">
+                        <font color="blue"> if(condicion) { </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> ... </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> } </font>
+                    </p>
+                    <p>La funcionalidad de está estructura de control es la siguiente, si la condición que hay en el interior del paréntesis se cumples , es decir, la condición es (True) se realiza la ejecución de la estructura del paréntesis lo que hay
+                        dentro del los ({}), una vez terminada la condición sigue con la ejecución del resto del script, en caso de que la condición sea (False), se salta la estructura de control y continua la ejecución del script.</p>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <p ALIGN="center">
+                        <font color="blue"> var mostrarMensaje = true; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> if(mostrarMensaje) { </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> alert("Hola Mundo"); </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> } </font>
+                    </p>
+                    <p>En el ejemplo anterior, el mensaje sí que se muestra al usuario ya que la variable mostrarMensaje tiene un valor de true y por tanto, el programa entra dentro del bloque de instrucciones del if.</p>
+                    <p>El ejemplo se podría reescribir también como:</p>
+                    <p ALIGN="center">
+                        <font color="blue"> var mostrarMensaje = true; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> if(mostrarMensaje == true) { </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> alert("Hola Mundo"); </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> } </font>
+                    </p>
+                    <p>En este caso, la condición es una comparación entre el valor de la variable mostrarMensaje y el valor true. Como los dos valores coinciden, la igualdad se cumple y por tanto la condición es cierta, su valor es true y se ejecutan las
+                        instrucciones contenidas en ese bloque del if.</p>
+                    <p>En la programación solemos cometer un error muy frecuente, cuando utilizamos el comparador ==, muchas veces tendemos a escribir con un solo =, y esto es un grave error, porque lo que estamos realizando entonces es asignar un valor.</p>
+                    <p>Los operadores AND y OR permiten encadenar varias condiciones simples para construir condiciones complejas:</p>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <p ALIGN="center">
+                        <font color="blue"> var numero1 = 3; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> var numero2 = 12; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue">if (numero1 == 3 && numero2 == 12){ </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue">... </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue">} </font>
+                    </p>
+                    <p>La condición anterior está formada por una operación AND sobre dos variables. Lo que realiza dicha condición, si se cumple que la variable numero1 es 3 y la variable numero2 es 12 entonces entra a la condición, en caso de que solamente
+                        una variable no tenga asignado ese valor la condición no se puede realizar.</p>
+                    <h3><u>Estructura if-else</u></h3>
+                    <p>Respecto a la condición anterior, ahora, si lo que queremos es tomar dos caminos distintos dependiendo de dicha condición, entonces tenemos una segunda versión, que es la más completa.</p>
+                    <p ALIGN="center">
+                        <font color="blue">} </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue">if(condición) {</font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> ... // Aquí si la condición es verdadera </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> }else { </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> ... // Aquí si la condición es falsa </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> } // Aquí si la condición es falsa </font>
+                    </p>
+                    <h2>Estructuras de Repetición</h2>
+                    <h3><u>Estructura For</u></h3>
+                    <p>La estructura for es una condicón un poco mas compleja que la del if, nos permite realizar repeticiones (también es conocida como bucle).</p>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <p ALIGN="center">
+                        <font color="blue"> for(inicializacion; condicion; actualizacion) { </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> ...</font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> } </font>
+                    </p>
+                    <p>El funcionamiento del bucle for se estructura de la siguiente manera: mientras la condición indicada se siga cumpliendo, se repite las instrucciones que están dentro del bloque for, por cada ejecución de bloque terminada, las variables
+                        utilizadas en la condición del for se actualizan.</p>
+                    <ol>
+                        <li><b>La "inicialización" es el valor que utilizamos para indicar en que posición empieza el bucle.</b></li>
+                        <li><b>La "condición" es el único elemento que decide si continua o se detiene la repetición.</b></li>
+                        <li><b>La "actualización" es el nuevo valor que se asigna después de cada repetición a las variables que controlan la repetición.</b></li>
+                    </ol>
+                    <p><u><b>Ejemplo</b></u></p>
+                    <p ALIGN="center">
+                        <font color="blue"> var mensaje = "Hola, estoy dentro de un bucle"; </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> for(var i = 0; i
+                            < 5; i++) { </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> alert(mensaje); </font>
+                    </p>
+                    <p ALIGN="center">
+                        <font color="blue"> } </font>
+                    </p>
+                    <p>Lo que realiza este ejemplo es lo siguiente: creamos una variable llamada mensaje, y cuando entramos al for se imprimira el mensaje de la variable 5 veces ya que es lo que el bucle indica.</p>
+                    <p>El bucle se inicializa a 0 de la siguiente manera: var i = 0;</p>
+                    <p>La condición es que mientras la variable i sea menor que 5 el bucle se sigue repitiendo: i
+                        <5;</p>
+                            <p>La actualización i++ indica que por cada vuelta que el bucle realice i se incrementa en 1, al inicio i=0, una vez que ha imprimido el mensaje, i se actualiza y entonces i = 1, ¡OJO!(El bucle realiza 5 repeticiones pero se para
+                                en el valor 4 en vez de 5, como hemos dicho previamente antes en programación siempre se suele empezar por 0 en vez de por 1);</p>
+                            <p><u><b>Ejemplo</b></u></p>
+                            <p ALIGN="center">
+                                <font color="blue"> var nombres = ["Jesús", "Daniel", "Jose", "Ana", "Juanma", "Pepe", "Cristina"]; </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> for(var i=0; i
+                                    <7; i++) { </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> alert(nombre[i]); </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> } </font>
+                            </p>
+                            <p>El ejemplo anterior se efectua de la siguiente manera, creamos un array de 7 elementos que empiezan en la posición 0(“Jesús”) y llega hasta la posición 6(“Cristina”), y el bucle se inicializa a 0 y llega hasta que i sea menor
+                                que 7, y la ejecución del bucle es la impresión de lo que contiene el array.</p>
+                            <p>alert(nombre[i]); (Significa que nos muestra lo que hay en la posición del array i vale 0 en la primera vuelta del bucle por lo que mostrara(Jesús) “nombre[0] = Jesús” en la salida, luego i se incrementa y vale 1 entonces en
+                                la salida imprimira (Dani)).</p>
+                            <h3><u>Estructura for..in</u></h3>
+                            <p>Es una estructura simplificada para recorrer un Array, utilizando una variable como contador del índice del Array.</p>
+                            <p ALIGN="center">
+                                <font color="blue"> for (contador in Array){ </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> alert (Array[contador]); </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> } </font>
+                            </p>
+                            <p>Aquí, el alert() mostrará todos los elementos del Array, tal como se ve en el siguiente ejemplo:</p>
+                            <p><u><b>Ejemplo</b></u></p>
+                            <div>
+                                <p><font color="blue" size="2px"> var dias = ["Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"]; </font></p>
+                                <p><font color="blue"> for(i in dias) { </font></p>
+                                <p><font color="blue"> alert(dias[i]); </font></p>
+                                <p><font color="blue"> } </font></p>
+                            </div>
+                            <h3><u>Estructura while</u></h3>
+                            <p>La estructura de repetición while se utiliza cuando no se sabe cuantas veces se tiene que repetir un bucle, pero si sabemos cuando tiene que parar mediante una condición.</p>
+                            <p ALIGN="center">
+                                <font color="blue"> while (condición){ </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> ... // instrucciones a repetir</font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> } </font>
+                            </p>
+                            <p><u><b>Ejemplo</b></u></p>
+                            <p ALIGN="center">
+                                <font color="blue"> var numero = 0; </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> while (numero
+                                    <3) { </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> alert('mensaje'); </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> numero++; </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue">} </font>
+                            </p>
+                            <p>En este ejemplo al incio del while numero vale 0 y va incrementandose con la sentencia numero++ de 1 en 1 cada vez que se cumple la condición.</p>
+                            <h3><u>Estructura do...while</u></h3>
+                            <p>Es similar a la anterior, la diferencia está en que esta última, evalúa la condición al final del bucle, es decir que por lo menos una vez se ejecutará el bucle.</p>
+                            <p ALIGN="center">
+                                <font color="blue">do { </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> ... // instrucciones a repetir </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue">} while (condición)</font>
+                            </p>
+                            <br>
+                            <p><u><b>Ejemplo</b></u></p>
+                            <p ALIGN="center">
+                                <font color="blue"> var numero = 0; </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> do { </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> alert('mensaje'); </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue"> numero = 3; </font>
+                            </p>
+                            <p ALIGN="center">
+                                <font color="blue">} while (numero
+                                    <3);</font>
+                            </p>
+                            <p>En este ejemplo la variable numero vale 0 y al entradar a la condicion de do...while porque como sabemos se realiza minimo una vez al llegar a la condición el número ha sido cambiado a 3 por lo tanto no se vuelve a repetir.</p>
+                </div>
+            </div>
+            
+            <div class="col-sm-2">
+                <div class="well helpbox">
+                    <p><b><u> Ayuda Externa</u></b></p>
+                    <p><a href="http://www.w3schools.com/" class="colorenlace"><b>w3schools</b></a></p>
+                    <p><a href="http://librosweb.es/" class="colorenlace"><b>LibrosWeb</b></a></p>
+                    <p><a href="http://es.stackoverflow.com/" class="colorenlace"><b>StackOverFlow</b></a></p>
+                </div>
+            </div>
+        </div>
+        </div>
+            
+       
+
+            <a href="#HistoriaJavaScript" class='flotante'> <button class="btn btn-primary"><i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i></button> </a>
+            
+    <div class="container-fluid piepagina">
+        <footer class="footer">
+            <div class="container-fluid">
+            <p class="footertext">LMSGI | Página creada con fines académicos (1º DAM Curso 2016/2017) <a class="footerlinks" href="#">Visitar web del curso</a></p>
+        </footer>
+    </div>
+    
+</div>
+
+</body>
+
+</html>

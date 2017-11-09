@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>HTML5 | LMSGI</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ARCHIVOS CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/css_html5.css" type="text/css">
+
+    <!--FUENTES-->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
+
+    <!--ICONOS-->
+
+    <script src="https://use.fontawesome.com/0964eb85ca.js"></script>
+
+    <!-- FAVICON -->
+
+	<link rel="icon" type="image/png" href="/img/favicon2.png" />
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-static-top navbar-default navigationbar" role="navigation">
+
+    <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle menubutton" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+
+    
+        <div class="collapse navbar-collapse navbar-ex1-collapse navigationbar-collapsed">
+
+            <ul class="nav navbar-nav navbar-left navigationletters navbarcolors">
+
+                <li><a class="start" href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Inicio</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="css.html">CSS3</a></li>
+                <li><a href="javascript.html">JAVASCRIPT</a></li>
+                <li><a href="json.html">JSON</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-left dropdownacolor">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle otherdd" data-toggle="dropdown">
+                    MÁS<b class="caret"></b></a>
+                    
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <li><a href="contactos.html">Sobre nosotros</a></li>
+                        <li><a href="bibliografia.html">Bibliografía</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+
+                <!--<div class="well rightmenu">-->
+                    
+                <p class="rightmenu"><font size=3><a href="#estructura"><b>1º Estructura básica</b></a></p>
+                <!--</div>-->
+
+                <!--<div class="well rightmenu" id="fondocabecera">-->
+                <p class="rightmenu"><a href="#extensiones"><b>2º Extensiones de archivo</b></a></p>
+                    
+                <!--</div>-->
+
+                <!--<div class="well  rightmenu" id="fondocabecera">-->
+                <p class="rightmenu"><a href="#titulos"><b>3º Etiquetas de Títulos</b></p></a></p>
+                <!--</div>-->
+
+                <!--<div class="well rightmenu" id="fondocabecera">-->
+                <p class="rightmenu"><a href="#ebloque"><b>4º Etiquetas de Bloque</b></p></a></p>
+                <!--</div>-->
+
+                <!--<div class="well rightmenu" id="fondocabecera">-->
+                <p class="rightmenu"><a href="#elinea"><b>5º Etiquetas de Línea</b></p></a></p>
+                <!--</div>-->
+
+                <!--<div class="well rightmenu" id="fondocabecera">-->
+                <p class="rightmenu"><a href="#estilos"><b>6º Estilos</b></p></a></p>
+                <!--</div>-->
+
+                <!--<div class="well rightmenu" id="fondocabecera">-->
+                <p class="rightmenu"><a href="#ancla"><b>7º Anclas</b></p></a></p>
+
+                </font>
+                <!--</div>-->
+
+            </div>
+            <div class="col-sm-8 text-left" id="fondocabecera">
+                <br><br><br><br>
+                <div id="fondocabecera" align="center">
+                    <p><img src="img/logo2.png" id="logo"></p>
+                </div>
+                <br><br><br><br><br><br><br>
+                <div class="jumbotron">
+                    <div class="container">
+                        <p class="container-fluid text-center;"></p>
+                        <font color="black">
+                            <p>
+                                <a name="estructura"></a>
+                                <font size="6px"><b><u>Estructura básica de una página web:</u></b></font>
+                            </p>
+                            <br>
+                            <font color="black" size="4px" p>
+                                <strong>Los archivos con extensión .html deben contener la siguiente estructura: </strong><br><br>
+                                <span style="color:blue"><b><</b></span><b>!DOCTYPE html</b><span style="color:blue"><b>></b></span> ----(“Definimos el tipo de documento”) <br>
+                                <span style="color:blue"><b><</b></span><b>html lang= “es”</b><span style="color:blue"><b>></b></span>-------(“Definimos el lenguaje = “Español” ”)<br>
+                                <span style="color:blue"><b><</b></span><b>head</b><span style="color:blue"><b>></b></span>--------------------(“Indica la cabecera del documento”)<br>
+                                <span style="color:blue"><b><</b></span>meta charset=”utf-8”/ <span style="color:blue"><b>></b></span>(“Se define la codificación usada”)<br>
+                                <span style="color:blue"><b><</b></span>title <span style="color:blue"><b>></b></span> <span style="color:blue"><b><</b></span>/title <span style="color:blue"><b>></b></span> ------------(“Especifica el título del documento”)<br>&nbsp
+                                <span style="color:blue"><b><</b></span><b>/head</b><span style="color:blue"><b>></b></span><br> &nbsp&nbsp
+                                <span style="color:blue"><b><</b></span><b>body</b><span style="color:blue"><b>></b></span>----------(“Es el cuerpo del html, en él se encuentra el contenido de la pag”)<br> &nbsp&nbsp
+                                <span style="color:blue"><b><</b></span>header> -----------(“Tipo de cabecera para añadir, nombre, slogan o logo”)<br> &nbsp&nbsp&nbsp <span style="color:blue"><b><</b></span>nav>------------(“Barra o menú de navegación,
+                                dentro puede haber listas <span style="color:blue"><b><</b></span>ul <span style="color:blue"><b>></b></span> <span style="color:blue"><b><</b></span>li
+                                <span style="color:blue"><b>></b></span>para dar forma”)<br> &nbsp &nbsp&nbsp<span style="color:blue"><b><</b></span>/nav <span style="color:blue"><b>></b></span><br> &nbsp&nbsp
+                                <span style="color:blue"><b><</b></span>/header <span style="color:blue"><b>></b></span><br>
+                                <span style="color:blue"><b><</b></span>section<span style="color:blue"><b>></b></span> -----------(“Divide el contenido en secciones”)<br> &nbsp &nbsp <span style="color:blue"><b><</b></span>article<span style="color:blue"><b>></b></span>
+                                <span style="color:blue"><b><</b></span>/article<span style="color:blue"><b>></b></span>---(“Caja de contenido que puede estar dentro o no del section”)<br>
+                                <span style="color:blue"><b><</b></span>/section<span style="color:blue"><b>></b></span><br>
+                                <span style="color:blue"><b><</b></span>aside <span style="color:blue"><b>></b></span><span style="color:blue"><b><</b></span>/aside<span style="color:blue"><b>></b></span> --------------(“Divide el cuerpo en 2 columnas”)<br>
+                                <span style="color:blue"><b><</b></span>div<span style="color:blue"><b>></b></span><span style="color:blue"><b><</b></span>/div<span style="color:blue"><b>></b></span> -----------------(“Similar al section, pero a este
+                                se le puede dar formato css”)<br>
+                                <span style="color:blue"><b><</b></span>footer<span style="color:blue"><b>></b></span><span style="color:blue"><b><</b></span>/footer<span style="color:blue"><b>></b></span> -------------(“Es el pié de pag”)<br>
+                                <span style="color:blue"><b><</b></span><b>/body</b><span style="color:blue"><b>></b></span><br>
+                                <span style="color:blue"><b><</b></span><b>/html</b><span style="color:blue"><b>></b></span><br>
+                                </p>
+                                <font size="5px"><b><u>Ejemplo de la estructura HTML:</u></b></font><br><br>
+                                <div align="center"> <img id="img" src="img/estructura.jpg"></div>
+                                </p>
+                            </font>
+
+                    </div>
+                </div>
+
+                <div class="jumbotron">
+                    <div class="container">
+                        <p class="container-fluid text-center;"></p>
+                        <p>
+                            <a name="extensiones"></a>
+                            <font size="6px"><b><u>Extensiones de archivos:</u></b></font>
+                        </p>
+                        <br>
+                        <font color="black" size="4px" p>
+                            <strong>Archivos con extensión .html:</strong><br>
+                            <br> Html es una estructura de hipertexto “sistema de organización y presentación de datos basado en la unión de fragmentos gráficos o escritos.” derivado del SGML.<br>
+                            <br> Lo que hacen los navegadores que utilizan los usuarios, como Mozilla Firefox, Google Chrome o Internet Explorer, es interpretar este contenido desarrollado en HTML y exhibirlo de manera tal que las personas puedan interpretarlo
+                            (como texto, imágenes, etc.).<br>
+                            <br><strong>Archivos con extensión .htm:</strong><br>
+                            <br> Htm es una abreviatura de Html que se abrevia para la compatilidad con sistemas operativos más antiguos.<br>
+                            <br><strong>Archivos con extensión .xhtml:</strong><br>
+                            <br>El XHTML es un lenguaje que adapta el HTML al XML.<br>
+                            <br> Vuelve compatibles ambos lenguajes (el HTML y el XML).<br>
+                            <br> De esta forma, mantiene la mayoría de las características del HTML, aunque con elementos del XML. <br>El XHTML, por lo tanto, otorga mayor robustez y capacidad de adaptación.
+                            <br><br><u>Uno de los ejemplos:</u> <br>
+                            <br> Los documentos tienen que estar bien formados:<br>
+                            <br>
+                            <div align="center"> <img id="img" src="img/xhtml0.jpg"></div><br>
+                            <div align="center"> <img id="img" src="img/xhtml1.jpg"></div>
+                            </p>
+                        </font>
+
+
+                    </div>
+                </div>
+
+                <div class="jumbotron">
+                    <div class="container">
+                        <p class="container-fluid text-center;"></p>
+                        <p>
+                            <a name="titulos"></a>
+                            <font size="6px"><b><u>Títulos:</u></b></font>
+                        </p>
+                        <br>
+                        <font color="black" size="4px" p>
+                            <Strong> La etiqueta título se define como:</strong><br><br><br>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>h1</b><span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>Texto muy grande<span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>/h1</b>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>
+                            <h1> Texto muy grande</h1><br><br>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>h2</b><span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>Texto grande<span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>/h2</b>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>
+
+                            <h2>Texto grande</h2><br><br>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>h3</b></b><span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>Texto algo más grande de lo normal<span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>/h3</b>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>
+                            <h3>Texto algo más grande de lo normal</h3><br><br>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>h4</b><span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>Texto normal<span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>/h4</b>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>
+                            <h4>Texto normal</h4><br><br>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>h5</b><span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>Texto pequeño<span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>/h5</b>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>
+                            <h5>Texto pequeño</h5><br><br>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>h6</b><span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>Texto muy pequeño<span style="color:blue; BACKGROUND-COLOR: white"><b><</b></span><b>/h6</b>
+                            <span style="color:blue; BACKGROUND-COLOR: white"><b>></b></span>
+                            <h6>Texto muy pequeño</h6>
+
+                            </p>
+                        </font>
+
+
+                    </div>
+                </div>
+
+                <div class="jumbotron">
+                    <div class="container">
+                        <p class="container-fluid text-center;"></p>
+                        <p>
+                            <a name="ebloque"></a>
+                            <font size="6px"><b><u>Etiquetas de bloque</u></b></font>
+                        </p>
+                        <br>
+                        <font color="black" size="4px" p>
+                            Un elemento de bloque es aquel que forma un “bloque” y se posicionan de forma vertical con un nuevo salto de línea, puede contener elementos de tipo línea.<br>
+                            <br>La altura y anchura cambia en base al contenido y se le pueden aplicar por css.<br>
+                            <br><b>Parrafos</b><br>
+                            < p> ---------- Se utiliza para representar un párrafo.<br><br>
+                                <p>Todo texto que se encuentra entre estas etiquetas es un párrafo.</p>
+                                </br>
+                                <b>Titulares</b><br>
+                                < h1>,
+                                    < h2>,
+                                        < h3>,
+                                            < h4>,
+                                                < h5>,
+                                                    < h6>
+                                                        </br>
+                                                        <br><b>Cajas</b><br>
+                                                        < div> ---------- Se utiliza para agrupar un bloque de elementos y añadirle un estilo.<br>
+                                                            <div style="color:red">
+                                                                <h3>Grupo 1</h3>
+                                                                <p>Este bloque tiene definido el texto de color rojo.</p>
+                                                            </div>
+                                                            <br><b>Listas</b><br>
+                                                            < ul> ----------- Crea una lista ordenada
+                                                                <ul>
+                                                                    <li>HTML</li>
+                                                                    <li>CSS</li>
+                                                                    <li>JavaScript</li>
+                                                                </ul>
+                                                                <br>
+
+                                                                < ol> ----------- Crea una lista desordenada
+                                                                    <ol>
+                                                                        <li>HTML</li>
+                                                                        <li>CSS</li>
+                                                                        <li>JavaScript</li>
+                                                                    </ol>
+                                                                    <br>
+                                                                    < li> ------------ Nos define los elementos de la lista, como en las anteriores.<br> &nbsp&nbsp&nbsp&nbsp
+                                                                        < li> HTML
+                                                                            < /li><br> &nbsp&nbsp&nbsp&nbsp
+                                                                                < li> CSS
+                                                                                    < /li><br> &nbsp&nbsp&nbsp&nbsp
+                                                                                        < li> JavaScript
+                                                                                            < /li>
+                                                                                                <br>
+                                                                                                <br><b>Otros</b><br>
+                                                                                                < menú> ------------- Tiene la misma estructura que la etiqueta
+                                                                                                    < ul>.<br>
+                                                                                                        < dir> -------------- Tiene la misma estructura que la etiqueta
+                                                                                                            < ul>.<br>
+                                                                                                                < pre> -------------- Formatea el texto, es decir, pone el texto tal como lo escribimos.
+                                                                                                                    <pre>Esto es una etiqueta < pre >,     Esto es una etiqueta < pre >,     Esto es una etiqueta < pre >.</pre>
+                                                                                                                    < hr> --------------- Dibuja una línea horizontal.
+                                                                                                                        <br>
+                                                                                                                        < blockquote> -------- Se utiliza para crear un texto largo como si fuera comentario.<br><br>
+                                                                                                                            <table align="center">
+                                                                                                                                <tr>
+                                                                                                                                    <td>
+                                                                                                                                        <div> <img id="img" src="img/block.jpg">
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                            </table><br>
+                                                                                                                            < table> -------- Sirve para crear una tabla<br><br>
+                                                                                                                                <table align="center" border="2" style="width:100%">
+                                                                                                                                    <tr>
+                                                                                                                                        <th>Columna1</th>
+                                                                                                                                        <th>Columna2</th>
+
+                                                                                                                                    </tr>
+                                                                                                                                    <tr>
+                                                                                                                                        <td>fila1</td>
+                                                                                                                                        <td>fila1</td>
+
+                                                                                                                                    </tr>
+                                                                                                                                    <tr>
+                                                                                                                                        <td>fila2</td>
+                                                                                                                                        <td>fila2</td>
+
+                                                                                                                                    </tr>
+                                                                                                                                </table>
+                                                                                                                                <br>
+                                                                                                                                < form> --- Se utiliza para hacer formularios.
+                                                                                                                                    <table>
+                                                                                                                                        <form action="usuario.php" method="get">
+                                                                                                                                            <tr>
+                                                                                                                                                <td id="img">Nombre:</td>
+                                                                                                                                                <td><input type="text" name="nombre" /></td><br>
+                                                                                                                                            </tr>
+                                                                                                                                            <tr>
+                                                                                                                                                <td id="img">Apellido:</td>
+                                                                                                                                                <td><input type="text" name="apellido" /></td><br>
+                                                                                                                                            </tr>
+
+                                                                                                                                            <tr>
+                                                                                                                                                <td id="img"> Contraseña:</td>
+                                                                                                                                                <td><input type="password" name="contraseña" /></td>
+                                                                                                                                            </tr><br>
+                                                                                                                                            <tr>
+                                                                                                                                                <td></td>
+                                                                                                                                                <td>PULSE PARA:</td>
+                                                                                                                                            </tr>
+                                                                                                                                            <tr>
+                                                                                                                                                <td></td>
+
+                                                                                                                                                <td id="img"><input type="submit" value="Enviar" /></td>
+                                                                                                                                            </tr>
+                                                                                                                                            <tr>
+                                                                                                                                                <td></td>
+                                                                                                                                                <td id="img"><input type="reset" value="Borrar" /></td>
+                                                                                                                                            </tr>
+
+                                                                                                                                        </form>
+                                                                                                                                    </table>
+                                                                                                                                    </p>
+                        </font>
+
+
+                        </div>
+                    </div>
+
+                    <div class="jumbotron">
+                        <div class="container">
+                            <p class="container-fluid text-center;"></p>
+                            <p>
+                                <a name="elinea"></a>
+                                <font size="6px"><b><u>Etiquetas de línea</u></b></font>
+                            </p>
+                            <br>
+                            <font color="black" size="4px" p>
+                                Estos elementos se posicionan horizontalmente en línea con otros elementos, la altura y anchura se definen en base al contenido y no por css.<br> <br>Algunos elementos que corresponden con el tipo en línea:<br><br>
+                                < a href="#"> ----- Se usa para definir un destino o un origen de un enlace.<br>
+                                    <a href="https://www.iesvirgendelcarmen.com/moodle/">Moodle Ies Virgen del Carmen</a><br><br>
+                                    < br> ----- Se utiliza para dar un salto de línea.<br><br>
+                                        < span> ------ Añade un estilo determinado dentro de una sección del texto.<br> Color: <span style="color:red">Rojo</span>,<span style="color:green">verde</span>,
+                                            <span style="color:blue">azul</span>.<br><br>
+                                            < img src> "nombreImagen.jpg" -------- Añade una imagen, se le pueden añadir atributos.<br>
+                                                < i>----- Inclina el texto --- <i> "Texto inclinado". </i><br>
+                                                    < b> --- Pone el texto en negrita --- <b> Texto en negrita.</b><br>
+                                                        < u> --- Subraya el texto --- <u> Texto Subrayado. </u> <br>
+                                                            < s> --- Tacha el texto --- <s>Texto tachado.</s><br>
+                                                                < Font> --- Formatea el tipo y tamaño del texto en algunos puntos del documento específicos. <br>
+                                                                    <FONT FACE="Lucida Handwriting" SIZE=5 COLOR=red>Tipo para formatear</FONT> <br><br>
+                                                                    < strong> --- Pone el texto en negrita, como la etiqueta <strong> < b > </strong>.<br>
+                                                                        < var> --- Nos indica que el contenido de la misma es una variable.<br>
+                                                                            < input> --- Se utiliza para ingresar datos, usado frecuentemente en un formulario.
+                                                                                <br>&nbsp&nbspEjemplo: <br> &nbsp&nbsp&nbsp&nbsp&nbsp
+                                                                                < form>
+                                                                                    < input type="submit" value="Enviar" />
+                                                                                    < /form>
+                                                                                        <br>
+                                                                                        < select> --- Se utiliza para crear listas despegables. <select>
+                                                                                        <option value="1">Uno</option>
+                                                                                        <option value="2">Dos</option>
+                                                                                        <option value="3">Tres</option>
+                                                                                        <option value="4">Cuatro</option>
+                                                                                        </select><br>
+                                                                                            < button> --- Similar al input: Se utliza para crear botones, permite más opciones. <button type="button">¡Presione aquí!</button>
+
+                                                                                                </p>
+                            </font>
+
+
+                        </div>
+                    </div>
+
+                    <div class="jumbotron">
+                        <div class="container">
+                            <p class="container-fluid text-center;"></p>
+                            <p>
+                                <a name="estilos"></a>
+                                <font size="6px"><b><u>Estilos</u></b></font>
+                            </p>
+                            <br>
+                            <font color="black" size="4px" p>
+                                Los estilos son extensiones .css que tienen definidos el formato (fuente, color de fuente, fondo...)<br>
+                                <br> Se pueden aplicar de tres formas diferentes:<br>
+                                <br><b> Mediante un archivo externo: "Creamos un archivo.css le ponemos el formato.</b> Ejemplo:<br>
+                                <div align="center"> <img id="img" src="img/Prueba.jpg"></div><br>
+                                <pre>
+< !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+           
+< html xmlns="http://www.w3.org/1999/xhtml">
+    < head>
+< meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+< title>Ejemplo de estilos CSS en un archivo externo< /title>
+<b>< link rel="stylesheet" type="text/css" href="Prueba.css" media="screen" /></b>
+    < /head>
+                                
+< body>
+< p>Un párrafo de texto.< /p>
+< /body>
+< /html>
+</pre>
+                                <br><b> Definición en el propio html "cabecera" un ejemplo es el footer de esta página:</b>
+                                <pre>
+footer {
+background-color: #555;
+color: white;
+bottom: 0;
+width: 100%;
+position: static;
+        }
+</pre>
+
+                                <br><b> Definidos en la propia etiqueta:</b><br>
+                                <br> Ejemplo:
+                                < h1 style="color: rgb(200, 20, 20); font-family: Helvetica,Arial,sans-serif;">Qué entendemos por un párrafo
+                                    < /h1>
+                                        <h1 style="color: rgb(200, 20, 20); font-family: Helvetica,Arial,sans-serif;">Qué entendemos por un párrafo</h1>
+                                        </p>
+                            </font>
+
+
+                        </div>
+                    </div>
+
+                    <div class="jumbotron">
+                        <div class="container">
+                            <p class="container-fluid text-center;"></p>
+                            <p>
+                                <a name="ancla"></a>
+                                <font size="6px"><b><u>Anclas o referencias:</u></b></font>
+                            </p>
+                            <br>
+                            <font color="black" size="4px" p>
+                                Referencias internas:<br>
+                                <br> Sirven para hacer referencias "llamar a una determinada posición de la página".<br>
+                                <br>Necesitamos el texto que va a llamar a cierta posición.<br>
+                                < a name="estructura"></a>
+                                    <br> Y el enlazador que se posiciona en el lugar deseado.<br>
+                                    < a href="#estructura" style="color:white"><u><b>Estructura básica</b></u> Ejemplo: <a href="#estructura" style="color:blue"><u><b>Estructura básica</b></u></a><br> <br>Referencias externas:
+                                        <br> Este enlace: te lleva a la página de marca: <a href="http://www.marca.com/">Accede al marca</a>
+                                        </p>
+                            </font>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <aside class="col-sm-2 sidenav" id="fondoizq">
+                    <div class="well leftmenu" id="fondocabecera">
+                        <font color="white" p><b><u> Nota:</b></u> Todas las etiquetas abiertas se deben cerrar ejemplo:<br><br>
+                            <p style="BACKGROUND-COLOR: black"><b><span style="color:white"><b><</b></span><span style="color:orange">html<span style="color:white"><b>></b></span><span style="color:white"><b><</b></span>/html<span style="color:white"><b>></b></span></b>
+                            </p>
+                            </p>
+                    </div>
+                    <div class="well leftmenu" id="fondocabecera">
+                        <p><b><u> Nota:</b></u> Por medio de CSS podremos alterar el tipo de elemento. <br>Esto lo logramos con las reglas <b> display:block y display:inline,</b> aplicándolas en cada elemento.
+                        </p>
+                    </div>
+                    <div class="well leftmenu" id="fondocabecera">
+                        <p><b><u> Nota:</b></u>
+                            <p style="BACKGROUND-COLOR: black"><b><span style="color:white"><b><</b></span><span style="color:orange">script<span style="color:white"><b>></b></span><span style="color:white"><b><</b></span>/script<span style="color:white"><b>></b></span></b>
+                            </p>
+                            Es otro importante elemento que se utiliza para englobar acciones en otros lenguajes, generalmente Javascript, para conseguir que la página web realice determinadas tareas.
+                        </p>
+                        </u>
+                    </div>
+                    <div class="well leftmenu" id="fondocabecera">
+                        <p><b><u> Nota:</b></u>
+                            Los "Anclas deben tener el mismo nombre o id para identificarse."
+
+                        </p>
+                        </u>
+                    </div>
+                    <div class="well leftmenu" id="fondocabecera">
+                        <p><b><u> Bibliografía:</b></u><br><br><a style="color:white" href="http://www.w3schools.com/">W3schools</a><br> <a style="color:white" href="https://es.wikipedia.org">Wikipedia</a><br>
+                            <a style="color:white" href="https://www.iesvirgendelcarmen.com/moodle/">Moodle</a><br>
+                            <a style="color:white" href="http://www.virtualnauta.com/">Virtualnauta</a><br>
+                            </font>
+                        </p>
+                        </u>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+
+
+
+        <div id="navigation_up_down_4681" class="uparrow"><noscript>Javascript is disable - <a href="http://www.webestools.com/">http://www.webestools.com/</a> - <a href="http://www.webestools.com/navigation-buttons-generator-scroll-top-bottom-shortcut-page-up-down-scroll-buttons-javascript.html">Navigation Buttons Generator</a></noscript>
+            <script type="text/javascript" src="http://services.webestools.com/navigation_up_down/2-4681-right.js"></script>
+        </div>
+
+
+        <div class="container-fluid piepagina">
+        <footer class="footer">
+        <div class="container-fluid">
+            <p class="footertext">LMSGI | Página creada con fines académicos (1º DAM Curso 2016/2017) <a class="footerlinks" href="#">Visitar web del curso</a></p>
+            
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>

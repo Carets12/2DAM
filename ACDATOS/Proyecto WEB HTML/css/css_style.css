@@ -1,0 +1,214 @@
+
+/* PARA ESTA PÁGINA SE HAN USADO PARTES DE CÓDIGO DEL CSS DE CONTACTOS,
+   LAS PARTES DE CÓDIGO USADAS SON:
+
+    - BARRA DE NAVEGACIÓN
+    - FOOTER 
+    - FAVICON
+    - OTROS COMPLEMENTOS MENORES
+
+    */
+
+.html {
+
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row.content {height: 450px;}
+
+.sidenav {
+    padding-top: 13px;
+    background-color: rgba(61, 104, 113, 0.15);
+    height: 100%;
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    .sidenav {display: none;}
+    .row.content {height:auto;}
+
+}
+
+/* BARRA NAVEGACION */
+
+.navbar-brand.navtittle {
+
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+.otherdd {
+    font-weight: bold;
+    
+}
+
+.navbar-default {
+
+    margin-bottom: 0;
+    background-color: rgb(20, 65, 108);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar .nav.navbarcolors li a {
+    color:  white;
+
+}
+
+.navbar-default.navigationbar {                  
+    border-color: rgb(20, 65, 108);                        
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    
+    background-color: rgb(26, 80, 132);
+    color:#ffffff;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a {
+    color: white;
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li.disabled>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    color: rgb(46, 60, 73);
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:focus {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+
+}
+
+.navbar .navbar-nav.dropdownacolor li a:visited {
+
+    background-color: rgb(20, 65, 108);
+    color: white;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:hover {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+}
+
+.navbar .nav.navbarcolors li a:hover {
+
+    background-color: rgb(16, 47, 77);
+    font-weight: bold;
+
+}
+
+.navbar .nav.navbarcolors li a.start {
+
+    font-size: 1.2em;
+    color:  white;
+    font-weight: bold;
+
+}
+
+.navbar-default .navbar-toggle.menubutton .icon-bar {
+
+    background-color: white;
+
+}
+
+.navbar-default .navbar-toggle.menubutton:active {
+
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+.navbar-default .navbar-toggle.menubutton:focus {
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-toggle.menubutton:hover {
+
+    background-color: rgba(0,0,0,0.2);
+}
+.navbar-default div.navbar-collapse.navigationbar-collapsed {
+        
+    border-top:none;
+    box-shadow:none;
+}
+
+/* FOOTER */
+
+.footertext {
+    font-size: 0.8em;
+
+}
+
+.footerlinks {
+
+    color: lightblue;
+    font-weight: bold;
+
+}
+
+.piepagina {
+
+    background-color: rgb(20, 65, 108);
+    padding-top: 1%;
+    color: white;
+    padding-left: 0.1%;
+
+}
+
+
+/* FIN FOOTER */
+
+.sidenavtittle {
+
+    font-family: 'Raleway', serif;
+    font-size: 1.2em;
+    text-decoration: underline;
+    text-align: left;
+    
+}
+
+.sidenavcontent {
+
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.helpbox {
+
+    background-color: rgb(1, 163, 211);
+    border: none;
+    margin-top: 13px;
+    color: white;
+    font-family: 'Raleway', serif;
+    font-size: 1.1em;
+
+}
+
+.helpbox a {
+
+    color: rgb(13.8%, 37.1%, 52.3%);
+
+}
+
+.tuttittle {
+    text-align: center;
+    font-family: 'Raleway', serif;
+    font-size: 3.4em;
+}

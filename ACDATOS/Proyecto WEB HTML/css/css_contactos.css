@@ -1,0 +1,271 @@
+html {
+
+    height: 100%;
+    width: 100%;
+}
+
+.bodybground {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    width: 100%;
+
+}
+
+.navbar-brand.navtittle {
+
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+.otherdd {
+    font-weight: bold;
+    
+}
+
+.jumbotron.tittle {
+    
+    text-align: center;
+    font-size: 4.7em;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background: rgb(1, 163, 211);
+    font-weight: bold;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+    
+
+}
+
+.navbar-default {
+
+    margin-bottom: 0;
+    background-color: rgb(20, 65, 108);
+
+}
+
+.navbar .nav.navbarcolors li a {
+    color:  white;
+
+}
+
+.navbar-default.navigationbar {                  
+    border-color: rgb(20, 65, 108);                        
+
+}
+
+.subtittle {
+
+    font-family: 'Prociono', serif;
+    /*text-align: center;*/
+    font-size: 1.3em;
+    background-color: rgba(61, 104, 113, 0.15);
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.iconsubtittle {
+
+    width: 100%;
+    height: 100%;
+    padding-left: 3%;
+    
+}
+
+.parraphtittle {
+    
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; 
+
+}
+
+.teamtittle {
+
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Raleway', serif;
+    font-size: 3.7em;
+    margin-bottom: 0px;
+
+}
+
+.avatar1 {
+
+    max-width: 80%;
+    max-height: 80%;
+    padding-bottom: 3%;
+
+}
+
+.avatar2 {
+
+    max-width: 96%;
+    max-height: 96.5%;
+    padding-bottom: 3%;
+
+}
+
+.avatarcol2 {
+
+    
+    padding-right: 4%;
+    padding-left: 4%;
+
+}
+
+.containerteam {
+    margin-bottom: 2%;
+
+}
+
+.name {
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+.firstrow {
+    margin-bottom: 3%;
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    
+    background-color: rgb(26, 80, 132);
+    color:#ffffff;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a {
+    color: white;
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li.disabled>a,.navbar-default .navbar-nav .open .dropdown-menu {
+
+    color: rgb(46, 60, 73);
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:focus {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:hover {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+}
+
+.navbar .nav.navbarcolors li a:hover {
+
+    background-color: rgb(16, 47, 77);
+    font-weight: bold;
+
+}
+
+.navbar .navbar-nav.dropdownacolor li a:visited {
+
+    background-color: rgb(20, 65, 108);
+    color: white;
+    
+}
+
+.navbar .nav.navbarcolors li a.start {
+
+    font-size: 1.2em;
+    color:  white;
+    font-weight: bold;
+
+}
+
+.piepagina {
+
+    background-color: rgb(20, 65, 108);
+    padding-top: 1%;
+    color: white;
+    padding-left: 0.1%;
+}
+
+.footertext {
+    font-size: 0.8em;
+
+}
+
+.footerlinks {
+
+    color: lightblue;
+    font-weight: bold;
+
+}
+
+.navbar-default .navbar-toggle.menubutton .icon-bar {
+
+    background-color: white;
+
+}
+
+.navbar-default .navbar-toggle.menubutton:active {
+
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+.navbar-default .navbar-toggle.menubutton:focus {
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-toggle.menubutton:hover {
+
+    background-color: rgba(0,0,0,0.2);
+}
+.navbar-default div.navbar-collapse.navigationbar-collapsed {
+        
+    border-top:none;
+    box-shadow:none;
+}
+
+@media(max-width: 991px) {
+
+    .iconsubtittle {
+        
+        display: none;
+        
+    }
+
+}
+
+@media(max-width: 880px) {
+
+    .avatar1 {
+
+    max-width: 40%;
+    max-height: 40%;
+    padding-bottom: 3%;
+
+    }
+
+    .avatar2 {
+
+    max-width: 42%;
+    max-height: 42%;
+    padding-bottom: 3%;
+
+    }
+
+}
+
+.container {
+    width: 100%;
+}
