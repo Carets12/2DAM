@@ -1,0 +1,235 @@
+        
+ /* DOCUMENTO CREADO POR JOSE MARÍA RUANO GÁLVEZ PARA LMSGI, ESTE DOCUMENTO NO HA USADO NINGUNA PLANTILLA,
+    TAN SÓLO BÚSQUEDAS EN INTERNET PARA DUDAS SOBRE ALGUNOS ELEMENTOS DE LA MISMA. */
+
+        /* DOCUMENTO CSS */
+
+        /* CLASES PERSONALIZADAS UTILIZADAS */
+
+     /* - .maintext
+        - .subtext
+        - .navigationbar
+        - .navigationbar-collapsed
+        - .navigationletters
+        - .separateline
+        - .buttoncenter
+        - .downbuttons
+        - .navbarcolors
+        - .menubutton  */
+
+        /* TODAS ESTAS CLASES HAN SIDO CREADAS POR MI PARA FACILITAR LA PRIORIDAD DE LAS REGLAS
+        EN EL CSS SEPARADO, YA QUE SI NO ESTUVIERAN, BOOTSTRAP APLICARÍA SUS PROPIAS REGLAS */
+
+html {
+
+    width: 100%;
+    height: 100%;     
+
+}
+
+.bodybground {
+
+    background-image: url(../img/bodybg2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.maintext {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 5.5em;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    min-width: 100%;
+
+}
+
+.subtext {
+
+    font-family: 'Prociono', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: floralwhite;
+    margin-top: 0%;
+    text-shadow: 0.3px 0.3px #a5a5a5;
+    
+}
+
+.navbar-default.navigationbar {
+
+    background: rgba(0,0,0,0);                   /*rgba(255,255,255,0.1)*/
+    border-color: rgba(0,0,0,0);                         /*#aba9a9*/
+
+}
+
+.navbar-default div.navbar-collapse.navigationbar-collapsed {
+
+    border-top:none;
+    box-shadow:none;
+}
+
+.navigationletters {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 93%;
+
+}
+
+.separateline {
+
+    background: orange;
+    width: 10%;
+    height: 3%;
+}
+
+.buttoncenter {
+
+    text-align: center;
+
+}
+
+.btn.downbuttons{
+
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0%;
+    background: rgba(0,0,0,0.05);
+    color: white;
+    border: 3px white;
+
+}
+
+.btn:focus.downbuttons, .btn:active:focus.downbuttons, .btn.active:focus.downbuttons {
+
+    outline: 0 none;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-default:hover.downbuttons {
+
+    border: 0.2em solid white;
+    /*background: rgba(225, 225, 225, 0.1);*/
+    background: rgba(0,0,0,0);
+    color: white;
+}
+
+    /* TODO
+
+    MODIFICAR BOTONES PARA SOLUCIONAR ERROR DEL FONDO BLANCO CUANDO
+    PULSAS ENCIMA DEL ENLACE DEL MISMO.
+
+    EL MISMO ERROR SE REPITE EN EL BOTÓN DROPDOWN DE LA BARRA DE 
+    NAVEGACIÓN */
+
+.btn-default.downbuttons {
+
+    border: 0.1em solid white;
+
+}
+
+.navbar .nav.navbarcolors li a {
+
+    color:  white;
+
+}
+
+.navbar .nav.navbarcolors li a:hover {
+
+    text-decoration: underline;
+    color: white;
+
+}
+
+.navbar .nav.navbarcolors li a:visited {
+
+    color: white;
+
+}
+
+.navbar .nav.navbarcolors li a:active {
+
+    color: lightgrey;
+
+}
+
+.navbar-default .navbar-toggle.menubutton .icon-bar {
+
+    background-color: white;
+
+}
+
+.navbar-default .navbar-toggle.menubutton:active {
+
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+.navbar-default .navbar-toggle.menubutton:focus {
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-toggle.menubutton:hover {
+
+    background-color: rgba(0,0,0,0.2);
+}
+
+.buttonlink {
+    color: white;
+}
+
+.buttonlink:hover {
+    color: white;
+}
+
+.buttonlink:active {
+    color: white;
+}
+
+.buttonlink:focus {
+    color: white;
+}
+
+.buttonlink:visited {
+    color: white;
+}
+
+@media(max-width: 650px) {
+
+        .buttoncenter {
+
+        display: inherit;
+
+    }
+
+    .maintext {
+
+        font-size: 5em;
+        line-height: 1.2em;
+
+    }
+
+    .subtext {
+
+        font-size: 1.2em;
+
+    }
+
+    .btn.downbuttons {
+
+        margin: 3px 3px 3px 3px;
+
+    }
+}

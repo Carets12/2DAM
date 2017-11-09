@@ -1,0 +1,192 @@
+.row.content {
+    height: 800px;
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: rgba(61, 104, 113, 0.15);
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .sidenav {display: none;}
+    .row.content {height:auto; width: auto;}
+    .uparrow{display: none;}
+}
+
+#fondoizq {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+#redondo {
+    height: 50px;
+    width: 65px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+#logo {
+    height: 40%;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% auto;
+}
+
+#img {
+    width: 100%;
+    max-width: 600px;
+}
+
+#background {
+    background-color: #C0C0C0;
+    opacity: 0.5;
+}
+
+
+
+
+/* BARRA DE NAVEGACIÓN */
+
+.navbar-default {
+
+    margin-bottom: 0;
+    background-color: rgb(20, 65, 108);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar .nav.navbarcolors li a {
+    color:  white;
+
+}
+
+.navbar-default.navigationbar {                  
+    border-color: rgb(20, 65, 108);                        
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    
+    background-color: rgb(26, 80, 132);
+    color:#ffffff;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a {
+    color: white;
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li.disabled>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    color: rgb(46, 60, 73);
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:focus {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:hover {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+}
+
+.navbar .nav.navbarcolors li a:hover {
+
+    background-color: rgb(16, 47, 77);
+    font-weight: bold;
+
+}
+
+.navbar .nav.navbarcolors li a.start {
+
+    font-size: 1.2em;
+    color:  white;
+    font-weight: bold;
+
+}
+
+.navbar-default .navbar-toggle.menubutton .icon-bar {
+
+    background-color: white;
+
+}
+
+.navbar-default .navbar-toggle.menubutton:active {
+
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+.navbar-default .navbar-toggle.menubutton:focus {
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-toggle.menubutton:hover {
+
+    background-color: rgba(0,0,0,0.2);
+}
+.navbar-default div.navbar-collapse.navigationbar-collapsed {
+        
+    border-top:none;
+    box-shadow:none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightmenu {
+    /*background-color: rgb(1, 163, 211);*/
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    
+    text-align: left;
+}
+
+
+.leftmenu {
+    background-color: rgb(1, 211, 151);
+    border: none;
+}
+
+.piepagina {
+
+    background-color: rgb(20, 65, 108);
+    padding-top: 1%;
+    color: white;
+    padding-left: 0.1%;
+}
+
+.footertext {
+    font-size: 0.8em;
+
+}
+
+.footerlinks {
+
+    color: lightblue;
+    font-weight: bold;
+
+}

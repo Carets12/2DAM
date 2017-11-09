@@ -1,0 +1,257 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.row.content {
+    height: 450px
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+.sidenav1 {
+    padding-top: 20px;
+    background-color: rgba(61, 104, 113, 0.15);
+    height: 100%;
+}
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+/*.logo img {
+    height: 3.5em;
+    width: 3.5em;
+    margin-top: 0.5em;
+    margin-left: 0em;
+    margin-right: 1em;
+}*/
+
+/*#fondo {
+    background-image: url(img/fondo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#fondobajo {
+    background-image: url(img/fondobajo1.png);
+    background-size: 500px, 600px, auto;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 15px;
+}*/
+
+/*.menuizquierda {
+    background: rgba(0, 0, 0, 0.1);
+}*/
+
+/*.colorenlace {
+    color: black;
+}*/
+
+/*.caja {
+    background: rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+}*/
+
+.menuizquierda {
+    text-align: left;
+
+}
+
+.indicetext {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    margin-bottom: 10 px;
+}
+
+.videolink {
+    display: none;
+}
+
+@media(max-width: 991px) {
+
+    .flotante{
+        display: none;
+        
+    }
+
+    .sidenav1 {
+        display: none;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .videolink {
+        display: initial;
+        text-align: center;
+    }
+
+
+}
+
+/* BARRA NAVEGACIÓN */
+
+.navbar-default {
+
+    margin-bottom: 0;
+    background-color: rgb(20, 65, 108);
+
+}
+
+.navbar .nav.navbarcolors li a {
+    color:  white;
+
+}
+
+.navbar-default.navigationbar {                  
+    border-color: rgb(20, 65, 108);                        
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    
+    background-color: rgb(26, 80, 132);
+    color:#ffffff;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a {
+    color: white;
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li.disabled>a,.navbar-default .navbar-nav .open .dropdown-menu {
+
+    color: rgb(46, 60, 73);
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:focus {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+
+}
+
+.navbar-default .navbar-nav.dropdownacolor li a:hover {
+    
+    background-color: rgb(16, 47, 77);
+    color: white;
+}
+
+.navbar .nav.navbarcolors li a:hover {
+
+    background-color: rgb(16, 47, 77);
+    font-weight: bold;
+
+}
+
+.navbar .navbar-nav.dropdownacolor li a:visited {
+
+    background-color: rgb(20, 65, 108);
+    color: white;
+    
+}
+
+.navbar .nav.navbarcolors li a.start {
+
+    font-size: 1.2em;
+    color:  white;
+    font-weight: bold;
+
+}
+
+.navbar-default .navbar-toggle.menubutton .icon-bar {
+
+    background-color: white;
+
+}
+
+.navbar-default .navbar-toggle.menubutton:active {
+
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+.navbar-default .navbar-toggle.menubutton:focus {
+
+    background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-default .navbar-toggle.menubutton:hover {
+
+    background-color: rgba(0,0,0,0.2);
+}
+.navbar-default div.navbar-collapse.navigationbar-collapsed {
+        
+    border-top:none;
+    box-shadow:none;
+}
+
+.piepagina {
+
+    background-color: rgb(20, 65, 108);
+    padding-top: 1%;
+    color: white;
+    padding-left: 0.1%;
+    text-align: left;
+}
+
+.footertext {
+    font-size: 0.8em;
+
+}
+
+.footerlinks {
+
+    color: lightblue;
+    font-weight: bold;
+
+}
+
+.helpbox {
+
+    background-color: rgb(1, 163, 211);
+    border: none;
+    margin-top: 13px;
+    color: white;
+    font-family: 'Raleway', serif;
+    font-size: 1.1em;
+
+}
+
+.helpbox a {
+
+    color: rgb(13.8%, 37.1%, 52.3%);
+
+}
+
+.container-fluid {
+    width: 100%;
+}

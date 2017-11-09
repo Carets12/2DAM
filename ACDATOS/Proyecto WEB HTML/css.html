@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS3 | LMSGI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ICONOS -->
+
+  <script src="https://use.fontawesome.com/0964eb85ca.js"></script>
+
+  <!-- ARCHIVOS CSS -->
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/css_style.css" type="text/css">
+
+  <!-- FAVICON -->
+
+  <link rel="icon" type="image/png" href="/img/favicon2.png"/>
+
+  <!-- FUENTES -->
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-static-top navbar-default navigationbar" role="navigation">
+
+    <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle menubutton" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+
+    
+        <div class="collapse navbar-collapse navbar-ex1-collapse navigationbar-collapsed">
+
+            <ul class="nav navbar-nav navbar-left navigationletters navbarcolors">
+
+                <li><a class="start" href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Inicio</a></li>
+                <li><a href="html5.html">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="javascript.html">JAVASCRIPT</a></li>
+                <li><a href="json.html">JSON</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-left dropdownacolor">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle otherdd" data-toggle="dropdown">
+                    MÁS<b class="caret"></b></a>
+                    
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <li><a href="contactos.html">Sobre nosotros</a></li>
+                        <li><a href="bibliografia.html">Bibliografía</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+<div class="container-fluid text-center">
+  <div class="row content">
+
+    <div class="col-md-2 sidenav">
+      <p class="sidenavtittle">Contenidos</p>
+
+      <p class="sidenavcontent">Desde etiqueta</p>
+      <p class="sidenavcontent">Desde head</p>
+      <p class="sidenavcontent">Desde hoja de estilos externa</p>
+    </div>
+
+    <div class="col-md-8 text-left">
+      <p class="tuttittle">Tutorial CSS3</p>
+      <hr style="width: 30%; background-color: orange; height: 0.2em; margin-top: 0px;" />
+      <p> CSS es un lenguaje de programación que acompaña al HTML, se encarga de dar formato al código HTML de la página o páginas.
+	  El CSS se puede declarar de tres maneras diferentes: Dentro de una etiqueta, en el head y en una hoja de estilos externa </p>
+
+    <!-- CUADROS DE CÓDIGO -->
+
+	  <p><h3>Desde etiqueta:</h3></p>
+	  <pre style='color:#000000;background:#ffffff;'><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>font</span><span style='color:#274796; '> </span><span style='color:#074726; '>color</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"red"</span><span style='color:#a65700; '>></span>Este texto tiene otro color<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>font</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#a65700; '>></span>
+	</pre>
+	  
+	  <h3> Desde head </h3>
+	  <pre style='color:#000000;background:#ffffff;'><span style='color:#004a43; '>&lt;!DOCTYPE html></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#274796; '> </span><span style='color:#074726; '>lang</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"es"</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>title</span><span style='color:#a65700; '>></span> Ejemplo css <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>title</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>style</span><span style='color:#a65700; '>></span>
+	<span style='color:#808030; '>#</span>color <span style='color:#800080; '>{</span>
+	<span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#808030; '>:</span> <span style='color:#797997; '>red</span><span style='color:#800080; '>;</span>
+	<span style='color:#800080; '>}</span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>style</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span> Ejemplo desde etiqueta<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#274796; '> </span><span style='color:#0000e6; '>"color"</span><span style='color:#a65700; '>></span>Este texto tiene otro color<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#a65700; '>></span>
+	</pre>
+
+	<h3> Desde hoja de estilos externa </h3>
+	<pre style='color:#000000;background:#ffffff;'><span style='color:#004a43; '>&lt;!DOCTYPE html></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#274796; '> </span><span style='color:#074726; '>lang</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"en"</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>LINK</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"estilocss.css"</span><span style='color:#274796; '> </span><span style='color:#074726; '>rel</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"stylesheet"</span><span style='color:#274796; '> </span><span style='color:#074726; '>type</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"text/css"</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>title</span><span style='color:#a65700; '>></span> Ejemplo css <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>title</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>head</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span> Ejemplo desde etiqueta<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#274796; '> </span><span style='color:#0000e6; '>"color"</span><span style='color:#a65700; '>></span>Este texto tiene otro color<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+	
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>body</span><span style='color:#a65700; '>></span>
+	<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>html</span><span style='color:#a65700; '>></span>
+	</pre>
+
+  <!-- FIN DE CAJAS DE CÓDIGO -->
+
+    </div>
+    <div class="col-md-2">
+      <div class="well helpbox">
+        <p>Más información en <a link href=http://www.w3schools.com/css/default.asp target= _blank>W3scools</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid piepagina">
+    <footer class="footer">
+        <div class="container-fluid">
+            <p class="footertext">LMSGI | Página creada con fines académicos (1º DAM Curso 2016/2017) <a class="footerlinks" href="#">Visitar web del curso</a></p>
+            
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
+

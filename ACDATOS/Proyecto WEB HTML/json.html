@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>JSON</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- ICONOS -->
+
+	<script src="https://use.fontawesome.com/0964eb85ca.js"></script>
+
+	<!-- ARCHIVOS CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css/css_json.css" type="text/css">
+
+	<!-- FAVICON -->
+
+	<link rel="icon" type="image/png" href="/img/favicon2.png" />
+
+	<!-- FUENTES -->
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-static-top navbar-default navigationbar" role="navigation">
+
+		<div class="navbar-header">
+
+			<button type="button" class="navbar-toggle menubutton" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+		</div>
+
+
+		<div class="collapse navbar-collapse navbar-ex1-collapse navigationbar-collapsed">
+
+			<ul class="nav navbar-nav navbar-left navigationletters navbarcolors">
+
+				<li><a class="start" href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Inicio</a></li>
+				<li><a href="html5.html">HTML5</a></li>
+				<li><a href="css.html">CSS3</a></li>
+				<li><a href="javascript.html">JAVASCRIPT</a></li>
+				<li><a href="#">JSON</a></li>
+
+			</ul>
+
+			<ul class="nav navbar-nav navbar-left dropdownacolor">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle otherdd" data-toggle="dropdown">
+                    MÁS<b class="caret"></b></a>
+
+					<ul class="dropdown-menu dropdown-menu-left">
+						<li><a href="contactos.html">Sobre nosotros</a></li>
+						<li><a href="bibliografia.html">Bibliografía</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid text-center">
+		<div class="row content">
+			<div class="col-sm-2 sidenav sidenavcontent">
+				<p><a href="#historia">Sintaxis JSON</p></a>
+					<p><a href="#modelos">Modelos de procesamiento</a></p>
+					<p><a href="#uso">Uso de JSON</a></p>
+					<p><a href="#ejemplo">Ejemplo de JSON</a></p>
+					<p><a href="#comparacion">Comparación con XML</a></p>
+			</div>
+
+			<div class="col-sm-8 text-left maintext">
+
+				<p class="tuttittle">Historia JSON</p>
+				<hr style="width: 30%; background-color: orange; height: 0.2em; margin-top: 0px;" />
+				<p>Es un formato de texto ligero para el intercambio de datos. JSON es un subconjunto de la notación literal de objetos
+					de JavaScript aunque hoy, debido a su amplia adopción como alternativa a XML, se considera un formato de lenguaje independiente.
+					Una de las supuestas ventajas de JSON sobre XML como formato de intercambio de datos es que es mucho más sencillo escribir
+					un analizador sintáctico (parser) de JSON.<br><br> En JavaScript, un texto JSON se puede analizar fácilmente usando
+					la función eval(), lo cual ha sido fundamental para que JSON haya sido aceptado por parte de la comunidad de desarrolladores
+					AJAX, debido a la ubicuidad de JavaScript en casi cualquier navegador web. En la práctica, los argumentos a favor de
+					la facilidad de desarrollo de analizadores o del rendimiento de los mismos son poco relevantes, debido a las cuestiones
+					de seguridad que plantea el uso de eval() y el auge del procesamiento nativo de XML incorporado en los navegadores modernos.
+					Por esa razón, JSON se emplea habitualmente en entornos donde el tamaño del flujo de datos entre cliente y servidor
+					es de vital importancia (de aquí su uso por Yahoo, Google, etc, que atienden a millones de usuarios) cuando la fuente
+					de datos es explícitamente de fiar y donde no es importante el no disponer de procesamiento XSLT para manipular los
+					datos en el cliente.</p>
+
+				<br>
+				<br>
+
+				<a name="historia"></a>
+				<h3><strong>Sintaxis:</strong></h3>
+				<h4>Los tipos de datos disponibles con JSON son:</h4>
+				<ul>
+					<li type="circle">
+						<u>Números:</u> Se permiten números negativos y opcionalmente pueden contener parte fraccional separada por puntos. Ejemplo:
+						123.456</li><br>
+					<li type="circle">
+						<u>Cadenas:</u> Representan secuencias de cero o más caracteres. Se ponen entre doble comilla y se permiten cadenas de
+						escape. Ejemplo: "<b>Hola</b>"</li><br>
+					<li type="circle">
+						<u>Booleanos:</u> Representan valores booleanos y pueden tener dos valores: <b>true</b> y <b>false</b></li><br>
+					<li type="circle">
+						<u>null:</u> Representan el valor nulo.</li><br>
+					<li type="circle">
+						<u>Vector:</u> Representa una lista ordenada de cero o más valores los cuales pueden ser de cualquier tipo. Los valores
+						se separan por comas y el vector se mete entre corchetes. Ejemplo <b>["juan","pedro","jacinto"]</b></li><br>
+					<li type="circle">
+						<u>objetos:</u> Son colecciones no ordenadas de pares de la forma
+						<nombre>:
+							<valor> separados por comas y puestas entre llaves. El nombre tiene que ser una cadena y entre ellas. El valor puede ser de
+								cualquier tipo. Ejemplo: <b>{"departamento":8,"nombredepto":"Ventas","director": "juan rodriguez","empleados":[{"nombre":"Pedro","apellido":"Fernandez"},{"nombre":"Jacinto","apellido":"Benavente"} ]}</b></li><br>
+				</ul>
+
+				<br>
+				<br>
+
+				<a name="modelos"></a>
+
+				<h3><strong>Modelos de procesamiento:</strong></h4>
+					<p>
+						Al ser JSON un formato muy extendido para el intercambio de datos, se han desarrollado API para distintos lenguajes que permiten
+						analizar sintácticamente, generar, transformar y procesar este tipo de datos.<br> Los modelos de programación
+						más utilizados para tratar con JSON en los distintos lenguajes son: </p>
+					<ul>
+						<li type="circle">
+							<u>Modelo de objeto:</u>El JSON completo es almacenado en memoria en un formato de árbol. Este árbol es navegado, analizado
+							y modificado con las API apropiadas. Como lo carga todo en memoria y luego lo procesa este modelo consume muchos recursos.
+							Sin embargo es muy flexible para manipular el contenido. Este modelo es permitido por ejemplo en java por la JSR 353
+							y por la biblioteca
+							<font color="red">Jackson</font>
+						</li><br>
+						<li type="circle">
+							<u>Modelo de flujo:</u>Los datos son leídos o escritos en bloques. Por ejemplo cada vez que se lee un bloque el analizador
+							genera eventos apropiados para indicar el tipo de bloque de que se trata. El cliente puede procesar el contenido escuchando
+							los eventos apropiados. Además es el cliente el que decide como se va leyendo el JSON permitiendo parar o saltar contenidos
+							en mitad del proceso. El proceso de escritura tiene propiedades análogas. Por ejemplo este modelo es permitido en
+							java por la JSR 353.</li><br>
+						<li type="circle">
+							<u>onvirtiendo los objetos JSON en objetos del lenguaje:</u> En java esto es realizado por ejemplo por las bibliotecas
+							<font color="red">Jackson</font> y
+							<font color="red">Gson</font>.</li><br>
+					</ul>
+
+					<br>
+					<br>
+
+					<a name="uso"></a>
+
+					<h3><strong>Uso de JSON:</strong></h4>
+						<p>En teoría, es trivial analizar JSON en JavaScript usando la función JSON.parse() incorporada en el lenguaje. Por ejemplo:</p>
+						<pre>
+							miObjeto = JSON.parse(json_datos);
+						</pre>
+						<p>En la práctica, las consideraciones de seguridad por lo general recomiendan no usar eval sobre datos crudos y debería
+							usarse un analizador JavaScript distinto para garantizar la seguridad. El analizador proporcionado por JSON.org usa
+							eval() en su función de análisis, protegiéndola con una expresión regular de forma que la función sólo ve expresiones
+							seguras.</p><br>
+						<p>Un ejemplo de acceso a datos JSON usando
+							<font color="blue">XMLHttpRequest</font> es:</p>
+						<pre>
+							<font color="green">var</font> http_request =
+							<font color="green">new</font> XMLHttpRequest();
+							<font color="green"> var</font> url =
+							<font color="red">"http://example.net/jsondata.php"</font>; // Esta URL debería devolver datos JSON
+
+							<font color="#408080">// Descarga los datos JSON del servidor.</font>
+							http_request.onreadystatechange = handle_json; http_request.open(
+							<font color="red">"GET"</font>, url,
+							<font color="green">true</font>); http_request.send(
+							<font color="green">null</font>);
+
+							<font color="green">function</font> handle_json() {
+							<font color="green">if</font> (http_request.readyState
+							<font color="grey">== 4</font) { <font color="green">if</font> (http_request.status
+							<font color="grey">== 200</font>) {
+							<font color="green">var</font> json_data = http_request.responseText;
+							<font color="green">var</font> the_object =
+							<font color="green">eval</font>(
+							<font color="red">"("</font + json_data + <font color="red">")</font>"); }
+							<font color="green">else</font> { alert(
+							<font color="red">"Ocurrio un problema con la URL."</font>); } http_request =
+							<font color="green">null</font>; } }
+						</pre>
+						<p>También es posible usar elementos <b>< iframe ></b> ocultos para solicitar los datos de manera asíncrona, o usar peticiones
+							<b>< form target="url_to_cgi_script" /></b>. Estos métodos eran los más habituales antes del advenimiento del uso
+							generalizado de XMLHttpRequest.</p>
+
+
+						<br>
+						<br>
+
+						<a name="ejemplo"></a>
+
+						<h3><strong>Ejemplo de JSON</strong></h3>
+						<h4>A continuación se muestra un ejemplo simple de definición de barra de menús usando JSON y XML.
+							<br><br>
+							<b>JSON:</b>
+							<br><br>
+						</h4>
+						<pre>
+							{
+							<font color="red">"menu"</font>: {
+							<font color="red">"id"</font>:
+							<font color="red">"file"</font>,
+							<font color="red">"value"</font>: "File",
+							<font color="red">"popup"</font>: {
+							<font color="red">"menuitem"</font>: [ {
+							<font color="red">"value"</font>:
+							<font color="red">"New"</font>,
+							<font color="red">"onclick"</font>:
+							<font color="red">"CreateNewDoc()"</font>
+							},{
+							<font color="red">"value"</font>:
+							<font color="red">"Open"</font>,
+							<font color="red">"onclick"</font>:
+							<font color="red">"OpenDoc()"</font>
+							},{
+							<font color="red">"value"</font>:
+							<font color="red">"Close"</font>,
+							<font color="red">"onclick"</font>:
+							<font color="red">"CloseDoc()"</font>
+							} ] } } }
+						</pre>
+						<h4>
+							<br><br>
+							<b>XML:</b>
+							<br><br>
+						</h4>
+
+						<pre>
+							<font color="green">
+								< menu</font> id=
+									<font color="red">"file"</font> value=
+									<font color="red">"File"</font>
+									<font color="green">></font>
+									<font color="green">
+										<popup>
+									</font>
+									<font color="green">
+										< menuitem</font> value=
+											<font color="red">"New"</font> onclick=
+											<font color="red">"CreateNewDoc()"</font>
+											<font color="green">/></font>
+											<font color="green">
+												< menuitem</font> value=
+													<font color="red">"Open"</font> onclick=
+													<font color="red">"OpenDoc()"</font>
+													<font color="green">/></font>
+													<font color="green">
+														< menuitem</font> value=
+															<font color="red">"Close"</font> onclick=
+															<font color="red">"CloseDoc()"</font>
+															<font color="green">/></font>
+															<font color="green">
+																< /popup>
+															</font>
+															<font color="green">
+																< /menu>
+															</font>
+						</pre>
+
+
+						<br>
+						<br>
+
+						<a name="comparacion"></a>
+
+						<h3><strong>Comparación con XML y otros lenguajes de marcado:</strong></h3>
+						<p>
+							<b>XML</b> goza de mayor soporte y ofrece muchas más herramientas de desarrollo (tanto en el lado del cliente como
+							en el lado del servidor). Hay muchos analizadores JSON en el lado del servidor, existiendo al menos un analizador
+							para la mayoría de los entornos. En algunos lenguajes, como <b>Java</b> o <b>PHP</b>, hay diferentes implementaciones
+							donde escoger. En JavaScript, el análisis es posible de manera nativa con la función
+							<font color="blue">eval()</font>. Ambos formatos carecen de un mecanismo para representar grandes objetos binarios.
+							<br>
+							<br> Con independencia de la comparación con XML, JSON puede ser muy compacto y eficiente si se usa de manera efectiva.
+							Por ejemplo, la aplicación DHTML de búsqueda en
+							<font color="blue">«BarracudaDrive»</font> (en inglés). Archivado desde el original el 1 de diciembre de 2015. recibe los listados de
+							directorio como JSON desde el servidor. Esta aplicación de búsqueda está permanentemente consultando al servidor por
+							nuevos directorios, y es notablemente rápida, incluso sobre una conexión lenta.
+							<br>
+							<br> Los entornos en el servidor normalmente requieren que se incorpore una función u objeto analizador de JSON. Algunos
+							programadores, especialmente los familiarizados con el <b>lenguaje C</b>, encuentran JSON más natural que XML, pero
+							otros desarrolladores encuentran su escueta notación algo confusa, especialmente cuando se trata de datos fuertemente
+							jerarquizados o anidados muy profundamente.
+						</p>
+
+
+						<br>
+						<a href="#top">
+							<p align=center><strong><i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i>  Ir a arriba  <i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i></strong></a>
+						</p>
+						<script>
+	var text = '{"nombre":"pablo","numero_cliente":"0014","compra":"2 ejemplares"}';
+
+	var obj = JSON.parse(text);
+
+	document.getElementById("demo").innerHTML =
+	obj.nombre + "<br>" +
+	obj.numero_cliente + "<br>" +
+	obj.compra;
+	</script>
+			</div>
+
+
+			<div class="col-sm-2">
+				<div class="well helpbox">
+					Puedes encontrar más ayuda de JSON en <a href="http://www.w3schools.com/js/js_json_intro.asp">W3SCHOOLS</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid piepagina">
+		<footer class="footer">
+			<div class="container-fluid">
+				<p class="footertext">LMSGI | Página creada con fines académicos (1º DAM Curso 2016/2017) <a class="footerlinks" href="#">Visitar web del curso</a></p>
+
+			</div>
+		</footer>
+	</div>
+
+</body>
+
+</html>
