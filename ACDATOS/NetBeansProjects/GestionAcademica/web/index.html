@@ -16,27 +16,67 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>                       
+        <div id="main">
             <nav>
               <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#!" class="brand-logo center">Gestión Académica</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
+                <ul class="left hide-on-med-and-down">
                   <li><a href="sass.html">Sass</a></li>
                   <li><a href="badges.html">Components</a></li>
-                  <li><a href="collapsible.html">Javascript</a></li>
-                  <li><a href="mobile.html">Mobile</a></li>
+                  <li class="active"><a href="collapsible.html">JavaScript</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
-                  <li><a href="sass.html">Sass</a></li>
-                  <li><a href="badges.html">Components</a></li>
-                  <li><a href="collapsible.html">Javascript</a></li>
-                  <li><a href="mobile.html">Mobile</a></li>
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
                 </ul>
+                <script>$(".button-collapse").sideNav();</script>
               </div>
             </nav>
-            
-            <div id="main" class="panel">
+        </div>
+       
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">person</i>
+                Alumnado
+                <span class="new badge">4</span></div>
+              <div class="collapsible-body"><p>Crear Alumno</p></div>
+              <div class="collapsible-body"><p>Ver Alumno</p></div>
+              <div class="collapsible-body"><p>Editar Alumno</p></div>
+              <div class="collapsible-body"><p>Eliminar Alumno</p></div>
+            </li>
+        </ul>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">supervisor_account</i>
+                Profesorado
+                <span class="new badge">4</span></div>
+              <div class="collapsible-body"><p>Crear Profesor</p></div>
+              <div class="collapsible-body"><p>Ver Profesor</p></div>
+              <div class="collapsible-body"><p>Editar Profesor</p></div>
+              <div class="collapsible-body"><p>Eliminar Profesor</p></div>
+            </li>
+        </ul>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">book</i>
+                Asignaturas
+                <span class="new badge">4</span></div>
+              <div class="collapsible-body"><p>Crear Asignatura</p></div>
+              <div class="collapsible-body"><p>Ver Asignatura</p></div>
+              <div class="collapsible-body"><p>Editar Asignatura</p></div>
+              <div class="collapsible-body"><p>Eliminar Asignatura</p></div>
+            </li>
+        </ul>
+
+   
+
+          <!--  <div id="main" class="panel">
                 Main
             </div>
                                               
@@ -47,7 +87,6 @@ and open the template in the editor.
             <div id="listadoAlumno" class="panel">
                 Listado
             </div>                                   
-        </div>                                                          
+        -->
     </body>
-    
 </html>
