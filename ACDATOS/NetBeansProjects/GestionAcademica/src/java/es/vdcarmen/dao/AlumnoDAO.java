@@ -18,8 +18,8 @@ public interface AlumnoDAO {
     public void update(Integer old_id, Alumno new_al) throws DAOException;
     public void delete(Integer id) throws DAOException;
     public void delete(Alumno al)throws DAOException;
-    public List findAll() throws DAOException;
-    public Alumno findById(Integer Id) throws DAOException;
-    public List findByNombre(String Nombre) throws DAOException;
-    public List findByApellido(String Apellido) throws DAOException;
+   // public List findAll() throws DAOException;
+    public Alumno findById(Integer id) throws DAOException;
+    public List<Alumno> findByNombre(String nombre) throws DAOException;
+    public List<Alumno> findByApellido(String apellido) throws DAOException;
 }

@@ -1,14 +1,19 @@
 package es.vcarmen.material06;
 
 import android.graphics.Color;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
-public class Material06 extends AppCompatActivity {
+public class Material06 extends AppCompatActivity implements View.OnClickListener {
 
     TabLayout tabLayout;
+    Button anadir, quitar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +21,8 @@ public class Material06 extends AppCompatActivity {
         setContentView(R.layout.activity_material06);
 
         tabLayout = (TabLayout)findViewById(R.id.tabLayout);
+        anadir = (Button) findViewById(R.id.anadirTab);
+        quitar = (Button) findViewById(R.id.quitarTab);
 
         TabLayout.Tab primerTab = tabLayout.newTab();
         primerTab.setText("TAB 01");
@@ -44,6 +51,7 @@ public class Material06 extends AppCompatActivity {
         tabLayout.setSelectedTabIndicatorColor(Color.GREEN);
         tabLayout.setSelectedTabIndicatorHeight(12);
 
+
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener(){
 
             @Override
@@ -62,5 +70,40 @@ public class Material06 extends AppCompatActivity {
 
             }
         });
+
+        anadir.setOnClickListener(this);
+        quitar.setOnClickListener(this);
+    }
+
+    int numero;
+
+    @Override
+    public void onClick(View view) {
+
+        switch (view.getId()){
+            case R.id.anadirTab:
+                if (tabLayout.getTabCount() < 6){
+                    numero = tabLayout.getTabCount();
+                    tabLayout.addTab(tabLayout.newTab().setText("TAB "+(numero+1)));
+                }
+                if(tabLayout.getTabCount() == 6){
+                    Snackbar snackbar = Snackbar.make(view, "NO SE PUEDEN AÑADIR MAS TABS", Snackbar.LENGTH_LONG);
+                    snackbar.show();
+                }
+                break;
+
+            case R.id.quitarTab:
+                if(tabLayout.getTabCount() > 3){
+                    tabLayout.removeTabAt(tabLayout.getSelectedTabPosition());
+                        numero = tabLayout.getTabCount()-1;
+                }
+
+                if(tabLayout.getTabCount() == 3){
+                    Snackbar snackbar = Snackbar.make(view, "NO SE PUEDEN BORRAR MAS TABS", Snackbar.LENGTH_LONG);
+                    snackbar.show();
+                }
+                break;
+        }
     }
 }
+
