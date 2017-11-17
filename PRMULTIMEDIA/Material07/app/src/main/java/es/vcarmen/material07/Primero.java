@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 public class Primero extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
-        sg
+        super.onCreate(savedInstanceState);
     }
 
     @Nullable
