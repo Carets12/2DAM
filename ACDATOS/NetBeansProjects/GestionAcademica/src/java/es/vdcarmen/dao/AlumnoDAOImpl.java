@@ -7,6 +7,7 @@ package es.vdcarmen.dao;
 
 import es.vdcarmen.pojo.Alumno;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.List;
 import java.util.logging.Level;
@@ -17,6 +18,9 @@ import java.util.logging.Logger;
  * @author matinal
  */
 public class AlumnoDAOImpl implements AlumnoDAO {
+
+    public AlumnoDAOImpl() {
+    }    
 
     Conexion conex;
     private Connection obtenerConexion() throws DAOException{
@@ -31,6 +35,10 @@ public class AlumnoDAOImpl implements AlumnoDAO {
              
         try {
             Connection con = obtenerConexion();
+            PreparedStatement pstm = con.prepareStatement("INSERT INTO ALUMNO VALUES(NULL, ?,?");
+            pstm.setString(1, al.getNombre());
+            pstm.setString(2, al.getApellido());
+            pstm.execute();            
             con.close();
         } catch (SQLException ex) {
             throw new DAOException("Alumno: Crear: No puedo conectar a la BBDD");

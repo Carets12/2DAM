@@ -25,6 +25,10 @@ public class Alumno {
         this.apellido = apellido;
     }
 
+    public Alumno(String juan, String sin_Miedo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getId() {
         return id;
     }
