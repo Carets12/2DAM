@@ -1,0 +1,7 @@
+#Sun Nov 26 20:44:52 CET 2017
+base.0=D\:\\danic\\Escritorio\\Material09\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7db0996656393d1bc70c8a58da301ae8cae8fd52
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\danic\\Escritorio\\Material09\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7acb528c8dc268b80a4a966530f142f9aa7d96b1\\classes.dex
+base.1=D\:\\danic\\Escritorio\\Material09\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7acb528c8dc268b80a4a966530f142f9aa7d96b1
+file.0=D\:\\danic\\Escritorio\\Material09\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7db0996656393d1bc70c8a58da301ae8cae8fd52\\classes.dex
