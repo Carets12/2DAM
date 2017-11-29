@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
+        <link rel = "stylesheet" href = "css/material.css">
+        <script src="js/materialize.min.js" type="text/javascript"></script>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <script src="js/index.js" type="text/javascript"></script>
+        <title>Gestión Académica</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" data-activates="menu-lateral" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+                <a href="#!" class="brand-logo" >Gestión académica</a>
+                <ul id="menu-lateral" class="side-nav collapsible">
+                    <li class="white"><a href="#!">Inicio</a></li>
+                    <li class="white">
+                        <a class="collapsible-header">Alumnado<i class="material-icons"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#!" id="menu_al_alu">Alta</a></li>
+                                <li><a href="#!" id="menu_mo_alu">Modificación</a></li>
+                                <li><a href="#!" id="menu_li_alu">Listado</a></li>
+                                <li><a href="#!" id="menu_bo_alu">Borrado</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="white">
+                        <a class="collapsible-header">Profesorado<i class="material-icons"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#!" id="menu_al_pro">Alta</a></li>
+                                <li><a href="#!" id="menu_mo_pro">Modificación</a></li>
+                                <li><a href="#!" id="menu_li_pro">Listado</a></li>
+                                <li><a href="#!" id="menu_bo_pro">Borrado</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                     <li class="white">
+                        <a class="collapsible-header">Asignaturas<i class="material-icons"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#!" id="menu_al_asig">Alta</a></li>
+                                <li><a href="#!" id="menu_pro_asig">Asignación profesor/asignatura</a></li>
+                                <li><a href="#!" id="menu_alu_asig">Matriculaciones alumnos</a></li>
+                                <li><a href="#!" id="menu_bor_asig">Borrado asignaturas</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#!" id="menu_creditos">Sobre esta aplicación</a></li>
+                    <li><a href="#!" id="menu_ayuda">Manual usuario</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            
+            <div id="panel_main" class="panel" hidden>
+                Vista inicial de la aplicación
+            </div>
+            <!-- ALUMNADO -->
+            <div id="panel_al_alu" class="panel" hidden>
+				<h1>Alta alumnos</h1>
+                Formulario para añadir/editar un alumno
+            </div>
+            <div id="panel_li_alu" class="panel" hidden>
+                Listado de alumnos y gestión de modificaciones/borrado
+            </div>
+            <div id="panel_mo_alu" class="panel" hidden>
+                Formulario para añadir/editar un alumno
+            </div>
+            <div id="panel_bo_alu" class="panel" hidden>
+                Formulario para borrar un alumno
+            </div>
+            <!-- PROFESORADO -->
+            <div id="panel_al_pro" class="panel" hidden>
+                Alta de un profesor
+            </div>
+            <div id="panel_li_pro" class="panel" hidden>
+                Listado de profesores y gestión de modificaciones/borrado
+            </div>
+            <div id="panel_mo_pro" class="panel" hidden>
+                Formulario para editar un profesor
+            </div>
+            <div id="panel_bo_pro" class="panel" hidden>
+                Formulario para borrar un profesor
+            </div>
+            <!-- GESTION ASIGNATURAS -->
+            
+             <div id="panel_al_asig" class="panel" hidden>
+                Formulario para añadir/editar una asignatura
+            </div>
+            <div id="panel_pro_asig" class="panel" hidden>
+                Maestro/detalle asignaturas/profesor
+            </div>
+            <div id="panel__alu_asig" class="panel" hidden>
+                Maestro/detalle asignaturas/alumno
+            </div>
+            <div id="panel_bor_asig" class="panel" hidden>
+                Listado de asignaturas y gestión de modificaciones/borrado
+            </div>
+            
+             <div id="panel_ayuda" class="panel" hidden>
+                Caja para la gestión de errores (mostrar errores y/o avisos)
+            </div>
+             <div id="panel_creditos" class="panel" hidden>
+                Caja para la gestión de errores (mostrar errores y/o avisos)
+            </div>
+            <div id="panel_error" class="panel" hidden>
+                Caja para la gestión de errores (mostrar errores y/o avisos)
+            </div>
+            
+        </div>
+    </body>
+</html>

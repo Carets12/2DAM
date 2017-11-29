@@ -1,4 +1,0 @@
-#Sun Nov 26 20:44:51 CET 2017
-base.0=D\:\\danic\\Escritorio\\Material09\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
-renamed.0=classes.dex
-file.0=D\:\\danic\\Escritorio\\Material09\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

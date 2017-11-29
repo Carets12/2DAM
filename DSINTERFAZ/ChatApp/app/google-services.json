@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "145707616448",
-    "firebase_url": "https://chat2app-602f4.firebaseio.com",
-    "project_id": "chat2app-602f4",
-    "storage_bucket": "chat2app-602f4.appspot.com"
+    "project_number": "236749935361",
+    "firebase_url": "https://chatapp-11f8a.firebaseio.com",
+    "project_id": "chatapp-11f8a",
+    "storage_bucket": "chatapp-11f8a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:145707616448:android:10a49216047353e9",
+        "mobilesdk_app_id": "1:236749935361:android:43fb9e65adc5b113",
         "android_client_info": {
           "package_name": "es.vcarmen.chatapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "145707616448-il9m425fl2fp0umd98qsgco5e2fepav3.apps.googleusercontent.com",
+          "client_id": "236749935361-jsgo3rbf52bukiur9d4hsnn70up62oq4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "es.vcarmen.chatapp",
-            "certificate_hash": "7893c6d0ed8c6b7917637ff13d5431f115b39b59"
+            "certificate_hash": "5394689562aa1a4c6395768b43947db701c6b545"
           }
         },
         {
-          "client_id": "145707616448-rk2djcdanfedf5nkqml8q1rnqs0o5o0v.apps.googleusercontent.com",
+          "client_id": "236749935361-0plifdp92j8t7072keb4ct0vpoucnbis.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBlfknvkU9s4UBY-9AhUGoWUoIksAkPxfc"
+          "current_key": "AIzaSyC6yZdK43WM6UNtnlXu0X2mdtYQMefBRTg"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "145707616448-rk2djcdanfedf5nkqml8q1rnqs0o5o0v.apps.googleusercontent.com",
+              "client_id": "236749935361-0plifdp92j8t7072keb4ct0vpoucnbis.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
