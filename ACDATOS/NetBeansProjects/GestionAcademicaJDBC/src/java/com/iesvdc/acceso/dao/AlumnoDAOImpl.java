@@ -38,12 +38,16 @@ public class AlumnoDAOImpl implements AlumnoDAO {
     @Override
     public void create(Alumno al) throws DAOException {
         try {
-            Connection con = obtenerConexion();
-            PreparedStatement pstm = con.prepareStatement("INSERT INTO ALUMNO VALUES(NULL, ?,?)");
-            pstm.setString(1, al.getNombre());
-            pstm.setString(2, al.getApellido());
-            pstm.execute();
-            con.close();
+            if (al.getApellido().length()>=3 && al.getNombre().length()>1 ) {
+                Connection con = obtenerConexion();
+                PreparedStatement pstm = con.prepareStatement("INSERT INTO ALUMNO VALUES(NULL, ?,?)");
+                pstm.setString(1, al.getNombre());
+                pstm.setString(2, al.getApellido());
+                pstm.execute();
+                con.close();
+            } else {
+                throw new DAOException("Alumno:Crear: El nombre es demasiado corto");
+            }
         } catch (SQLException ex) {
             throw new DAOException("Alumno:Crear: No puedo conectar a la BBDD");
         }
@@ -51,7 +55,7 @@ public class AlumnoDAOImpl implements AlumnoDAO {
 
     @Override
     public void update(Alumno old_al, Alumno new_al) throws DAOException {
-       update(old_al.getId(),new_al);
+        update(old_al.getId(),new_al);
     }
 
     @Override
@@ -152,7 +156,7 @@ public class AlumnoDAOImpl implements AlumnoDAO {
         List<Alumno> list_al = new ArrayList<>();
         try {
             Connection con = obtenerConexion();
-            PreparedStatement pstm = con.prepareStatement("SELECT * FROM ALUMNO");        
+            PreparedStatement pstm = con.prepareStatement("SELECT * FROM ALUMNO");
             ResultSet rs = pstm.executeQuery();
             while (rs.next()) {
                 al = new Alumno(rs.getInt("id"), rs.getString("nombre"), rs.getString("apellido"));

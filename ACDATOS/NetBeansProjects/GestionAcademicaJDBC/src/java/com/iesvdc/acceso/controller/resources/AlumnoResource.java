@@ -25,7 +25,22 @@ import javax.ws.rs.core.MediaType;
 public class AlumnoResource {
     
     @GET
-    @Path("id/{id}")
+    @Path("/")
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    public List<Alumno> getAlumnos() {
+         AlumnoDAO al_dao = new AlumnoDAOImpl();
+        List<Alumno> list_al;
+        try {
+            list_al = al_dao.findAll();
+        } catch (DAOException ex) {
+            list_al = new ArrayList<>();
+            System.out.println(ex.getLocalizedMessage());
+        }
+        return list_al;
+    }
+    
+    @GET
+    @Path("{id}")
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     public Alumno getAlumnoById(@PathParam("id") String id) {
         AlumnoDAO al_dao = new AlumnoDAOImpl();
@@ -43,6 +58,9 @@ public class AlumnoResource {
     @Path("apellido/{apellido}")
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     public List<Alumno> getAlumnoByApellido(@PathParam("apellido") String apellido) {
+         /*   @PathParam("nombre") String nombre,
+            @PathParam("apellido") String apellido){
+    }*/
         AlumnoDAO al_dao = new AlumnoDAOImpl();
         List<Alumno> list_al;
         try {

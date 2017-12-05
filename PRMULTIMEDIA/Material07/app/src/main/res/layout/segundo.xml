@@ -8,14 +8,11 @@
     android:background="#33a2dc9a"
     >
 
-    <TextView
+    <WebView
+        android:id="@+id/webView2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SEGUNDO FRAGMENTO"
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:textSize="30dp"
+        android:layout_height="match_parent">
 
-        />
+    </WebView>
 
 </LinearLayout>
