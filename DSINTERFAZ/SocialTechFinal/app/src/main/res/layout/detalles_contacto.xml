@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoDetalles"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/contacto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Contacto"
+                android:gravity="center|left"
+                android:textColor="#3375b4"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="15sp"
+                />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/persona"
+                android:id="@+id/imagenP"
+                android:layout_below="@+id/contacto"
+                android:layout_alignEnd="@+id/contacto" />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/name"
+                android:id="@+id/imagennameE"
+                android:layout_toRightOf="@+id/imagenP"
+                android:layout_below="@+id/contacto"
+                />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="45sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/telefono"
+                android:layout_toRightOf="@+id/imagenP"
+                android:id="@+id/imagen2"
+                android:layout_below="@+id/imagennameE"
+                />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/correo"
+                android:layout_toRightOf="@+id/imagenP"
+                android:id="@+id/imagen3"
+                android:layout_below="@+id/imagen2"
+                />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="45sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5sp"
+                android:src="@drawable/formacion"
+                android:layout_toRightOf="@+id/imagenP"
+                android:id="@+id/imagen4"
+                android:layout_below="@+id/imagen3"
+                />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="45sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/direccion"
+                android:layout_toRightOf="@+id/imagenP"
+                android:id="@+id/imagen5"
+                android:layout_below="@+id/imagen4"
+                />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/sex"
+                android:layout_toRightOf="@+id/imagenP"
+                android:id="@+id/imagen6"
+                android:layout_below="@+id/imagen5"
+                />
+
+            <ImageView
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/edad"
+                android:layout_marginBottom="5sp"
+                android:layout_toRightOf="@+id/imagenP"
+                android:id="@+id/imagen7"
+                android:layout_below="@+id/imagen6"
+                />
+
+            <TextView
+                android:id="@+id/nD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:textSize="18sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text=""
+                android:layout_alignTop="@+id/imagennameE"
+                android:textColor="@color/colorNombre"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/imagennameE"
+                android:layout_above="@+id/tD" />
+
+            <TextView
+                android:id="@+id/tD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_alignTop="@+id/imagen2"
+                android:layout_toEndOf="@+id/imagen2"
+                android:textColor="@color/colorTelefono"
+                android:textStyle="bold"
+                android:layout_above="@+id/imagen3" />
+
+            <TextView
+                android:id="@+id/eD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignTop="@+id/imagen3"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorEmail"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/imagen3"
+                android:layout_above="@+id/fD" />
+
+            <TextView
+                android:id="@+id/fD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignTop="@+id/imagen4"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorFormacion"
+                android:textStyle="bold"
+                android:layout_toEndOf="@+id/imagen4"
+                android:layout_above="@+id/pD" />
+
+            <TextView
+                android:id="@+id/pD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignTop="@+id/imagen5"
+                android:layout_toEndOf="@+id/imagen5"
+                android:textColor="@color/colorProvincia"
+                android:textStyle="bold"
+                android:layout_alignBottom="@+id/imagen5" />
+
+            <TextView
+                android:id="@+id/sD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignTop="@+id/imagen6"
+                android:layout_toEndOf="@+id/imagen6"
+                android:textColor="@color/colorSexo"
+                android:textStyle="bold"
+                android:layout_above="@+id/imagen7" />
+
+            <TextView
+                android:id="@+id/eDD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text=""
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/colorEdad"
+                android:textStyle="bold"
+                android:layout_alignTop="@+id/imagen7"
+                android:layout_toEndOf="@+id/imagen7" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

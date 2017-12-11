@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "561659162646",
+    "firebase_url": "https://socialtech-35a11.firebaseio.com",
+    "project_id": "socialtech-35a11",
+    "storage_bucket": "socialtech-35a11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561659162646:android:78611988ada06307",
+        "android_client_info": {
+          "package_name": "es.vcarmen.socialtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561659162646-eqkkfp896s8803j143fe12jvosh01r2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.vcarmen.socialtech",
+            "certificate_hash": "2b8876888691d89f0ce0d6e065e6b9bde7200a07"
+          }
+        },
+        {
+          "client_id": "561659162646-9v8c7o4mv4aphvdmd64625jfepvfm9if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDvU4LuPaXr5meumgdD0m5VZJ7ulGJ5QI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561659162646-9v8c7o4mv4aphvdmd64625jfepvfm9if.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="colorNombre">#09b7b7</color>
+    <color name="colorApellidos">#3e0df2</color>
+    <color name="colorTelefono">#7122a6</color>
+    <color name="colorEmail">#03ad1f</color>
+    <color name="colorFormacion">#c18d1e</color>
+    <color name="colorProvincia">#c34145</color>
+    <color name="colorSexo">#2e6063</color>
+    <color name="colorEdad">#8d8916</color>
+    <color name="colorOb">#000000</color>
+    <color name="colorLocalidad">#30805c</color>
+    <color name="colorContacto">#6a76ff</color>
+    <color name="colorDi">#4b9390</color>
+
+    <color name="anadirEmpresaFab">#1a909f</color>
+    <color name="fondoDetalles">#d3dae4</color>
+    <color name="fondoFormulario">#dde4e3</color>
+</resources>
