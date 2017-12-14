@@ -9,6 +9,9 @@
     android:fitsSystemWindows="true"
     tools:context="es.vcarmen.material11.MainActivity">
 
+    <include layout="@layout/contenido">
+    </include>
+
     <android.support.design.widget.NavigationView
         android:layout_width="240dp"
         android:layout_gravity="start"
