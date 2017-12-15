@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/matinal/.android/build-cache/696d8c86142130ea53dcc358da614c17f2eb7b94/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/b0ea539aec16998c7f8aeb9c34ff36ae5637404d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/matinal/.android/build-cache/fb18856ed0bc3671ebb5175ce1d24045f8d27729/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/matinal/.android/build-cache/e2f77fa76505b920328c1e0375b66c10aa48819e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/matinal/.android/build-cache/5b83c14dfa042295069ca96f768eee96c3938984/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/matinal/.android/build-cache/7ea0e21bbdb274f5033e83d395e68349e6f1fa91/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/matinal/.android/build-cache/48dd8560ad0652dbe45317c05d918116a6d5f63f/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/5c15391116bfe6f5aec6c1b691c2b658d23e2d2a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/matinal/.android/build-cache/31dee4fc6184a348db1d9b4f797babf655f5795a/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:11:9-40
+activity#es.vcarmen.fragment08.Fragment08
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:12:19-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/matinal/.android/build-cache/696d8c86142130ea53dcc358da614c17f2eb7b94/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/b0ea539aec16998c7f8aeb9c34ff36ae5637404d/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/matinal/.android/build-cache/fb18856ed0bc3671ebb5175ce1d24045f8d27729/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/matinal/.android/build-cache/e2f77fa76505b920328c1e0375b66c10aa48819e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/matinal/.android/build-cache/5b83c14dfa042295069ca96f768eee96c3938984/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/matinal/.android/build-cache/7ea0e21bbdb274f5033e83d395e68349e6f1fa91/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/matinal/.android/build-cache/48dd8560ad0652dbe45317c05d918116a6d5f63f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/5c15391116bfe6f5aec6c1b691c2b658d23e2d2a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/matinal/.android/build-cache/31dee4fc6184a348db1d9b4f797babf655f5795a/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Fragment08/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/matinal/.android/build-cache/696d8c86142130ea53dcc358da614c17f2eb7b94/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/b0ea539aec16998c7f8aeb9c34ff36ae5637404d/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/matinal/.android/build-cache/fb18856ed0bc3671ebb5175ce1d24045f8d27729/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/matinal/.android/build-cache/e2f77fa76505b920328c1e0375b66c10aa48819e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/matinal/.android/build-cache/5b83c14dfa042295069ca96f768eee96c3938984/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/matinal/.android/build-cache/7ea0e21bbdb274f5033e83d395e68349e6f1fa91/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/matinal/.android/build-cache/48dd8560ad0652dbe45317c05d918116a6d5f63f/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/5c15391116bfe6f5aec6c1b691c2b658d23e2d2a/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:26:9-47

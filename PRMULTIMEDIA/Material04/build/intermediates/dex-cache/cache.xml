@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/94f38319af6974aca2273061ca8ceec3022beab3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Material04/app/build/intermediates/pre-dexed/debug/classes_65d70db597d27dfca24e0a283b750a7f3bb75a33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/9e7413d8cc2bfe63afb66f4cbb93c6e96b7aac2c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Material04/app/build/intermediates/pre-dexed/debug/classes_20801005136dedd42f2e961327551e5fae9fd4fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/ce2fc899df2e90999a17f5dc3167ebb67de49385/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/PRMULTIMEDIA/Material04/app/build/intermediates/pre-dexed/debug/classes_48492229a4013358b7c2b97e32cfccd498f7e961.jar" />
+    </item>
+
+</items>

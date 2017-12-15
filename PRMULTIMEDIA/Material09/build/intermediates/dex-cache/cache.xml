@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/3bc12fe5a854b90b8e50181d501638528e5f59aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/home/matinal/Escritorio/Material09/app/build/intermediates/pre-dexed/debug/classes_405730ddbc7ea8d8c990d269bbb458c1da777035.jar" />
+    </item>
+
+</items>

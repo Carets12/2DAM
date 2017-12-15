@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aef4fc"
+    tools:context="es.vcarmen.material09.Material09">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/tarjeta"
+        cardview:cardBackgroundColor="#f9dc9a"
+        cardview:cardCornerRadius="5dp"
+        cardview:cardElevation="10dp"
+        cardview:cardUseCompatPadding="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:popupTheme="@style/Theme.AppCompat.Light"
+                app:subtitleTextAppearance="@style/subtitulo"
+                app:theme="@style/tarjeta"
+                app:titleTextAppearance="@style/titulo"
+                />
+
+            <ImageView
+                android:id="@+id/imagen1"
+                android:scaleType="fitStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/cuadro2"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:onClick="tocado"
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Detalle"
+                    />
+
+                <ImageView
+                    android:id="@+id/imagen2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitStart"
+                    android:src="@mipmap/mas"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/linear2"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8sp"
+                    android:text="El rapto de las sabinas es una de las obras más conocidas del pintor neoclásico Jacques Louis David. Relizado en óleo sobre lienzo la obra data de 1799 y actualmente se conserva en el museo de Louvre de París"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

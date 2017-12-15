@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/matinal/Escritorio/Material09/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/2DAM/PRMULTIMEDIA/Material09/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/matinal/.android/build-cache/4511e5bfc40f9c41820ed21e25b2e34065a98d66/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/Material09/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/2DAM/PRMULTIMEDIA/Material09/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/matinal/.android/build-cache/4511e5bfc40f9c41820ed21e25b2e34065a98d66/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
