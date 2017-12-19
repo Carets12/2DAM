@@ -1,6 +1,5 @@
 package com.iesvirgendelcarmen.noticiasdeportes.modelos.api;
 
-import android.content.Context;
 import android.util.Log;
 
 import com.android.volley.Request;
@@ -12,6 +11,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
+import com.iesvirgendelcarmen.noticiasdeportes.App;
 import com.iesvirgendelcarmen.noticiasdeportes.modelos.Noticia;
 
 import java.io.StringReader;
@@ -28,6 +28,7 @@ public class NewsApi {
     private String SOURCE = "marca";
     private String APIKEY = "63c8ed347d104c67b28f4360a57edd17";
     private String url;
+
     public NewsApi() {
         this.url = String.format(ENDPOINT_TODO, SOURCE, APIKEY);
     }
@@ -38,14 +39,13 @@ public class NewsApi {
      * <p>
      * Se hace uso de la librería Volley y Gson
      *
-     * @param ctx       Contexto necesario para Volley
      * @param respuesta Cuando se ha obtenido y procesado la lista se llama al callback
      */
-    public void ultimasNoticias(Context ctx, final Callback respuesta) {
+    public void ultimasNoticias(final Callback respuesta) {
 
         //Se obtiene la cola de peticiones. Sólo debe existir una instancia de Volley
         //para asegurar correcto funcionamiento de la cache.
-        RequestQueue req = VolleySingleton.getInstance(ctx).getRequestQueue();
+        RequestQueue req = VolleySingleton.getInstance(App.getAppContext()).getRequestQueue();
 
         ///Se hace una petición GET a la url
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,

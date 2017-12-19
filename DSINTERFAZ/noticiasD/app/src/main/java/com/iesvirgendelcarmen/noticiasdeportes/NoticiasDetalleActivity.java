@@ -6,6 +6,7 @@ import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
 import com.android.volley.toolbox.NetworkImageView;
+import com.iesvirgendelcarmen.noticiasdeportes.Noticias.NoticiasActivity;
 import com.iesvirgendelcarmen.noticiasdeportes.modelos.Noticia;
 import com.iesvirgendelcarmen.noticiasdeportes.modelos.api.VolleySingleton;
 
