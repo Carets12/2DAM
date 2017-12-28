@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#136358"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.vcarmen.sensores04.Sensores04">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:text="SENSOR DE CAMPO MAGNÉTICO"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="17sp"
+        android:textColor="#f6fa05"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="CAMPO B_X"
+        />
+
+    <TextView
+        android:id="@+id/aceleracionx"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:textColor="#fff200"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        android:text="Campo_X"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="17sp"
+        android:textColor="#1cffe8"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="CAMPO B_Y"
+        />
+
+    <TextView
+        android:id="@+id/aceleraciony"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:textColor="#23fde8"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        android:text="Campo_Y"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="17sp"
+        android:textColor="#54f434"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="CAMPO B_Z"
+        />
+
+    <TextView
+        android:id="@+id/aceleracionz"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:textColor="#6ee736"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        android:text="Campo_Z"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="17sp"
+        android:textColor="#dd1dff"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="B MÓDULO"
+        />
+
+    <TextView
+        android:id="@+id/campoTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:textColor="#dd1dff"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="CAMPO MAGNÉTICO TOTAL"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="17sp"
+        android:textColor="#00ff88"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="CAMPO MÁXIMO"
+        />
+
+    <TextView
+        android:id="@+id/campoTerrestre"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:textColor="#00ff88"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        android:text="Campo Terrestre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="17sp"
+        android:textColor="#ffb43d"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="CAMPO TIERRA MÍNIMO Y MÁXIMO"
+        />
+
+    <TextView
+        android:id="@+id/campoTierra"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:textColor="#ffb43d"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="Campo_tierra"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:textSize="17sp"
+        android:textColor="#00b2ff"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="CONTADOR"
+        />
+
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="17sp"
+        android:textColor="#00b2ff"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:text="contador"
+        />
+
+
+
+
+</LinearLayout>
