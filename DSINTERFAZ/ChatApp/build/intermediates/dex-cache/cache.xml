@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/74faeb78650fd181f4c3726ad439ac4eaef334f3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_6f386411956f7828247288ff8b0def722ce528d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/65bf406163cba4630240d6399ad8b15634a852d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_a0bada09110b921a5ef3a90e12fc2c5b9560f6e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/951e9f7ae0aeeccc127c409fe0c92ee9b72c71c6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_7568065d928ac5c5efe24c49679462ff5e24c339.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/2110152ded1d6093a877ec3cf4e489299016a44c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_d4599fe248ef400ade609e88ec063da9aabe4ac5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/a65bc8f9a73a20824a20c529ac0f2e7ba62bbb1c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_bc1f0af784aa089ebdf63f888316b85d8ca446f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/0ff7c49232485d3e4a6e35216de5b0285aa10040/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_3d1fab0a94f25f0d6e163b930ac017be8fbf06b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/d0225874d5a0b651c7ea661907eb001f5f836205/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_007169740727a478e68494affd18a951a9ff3241.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/matinal/.android/build-cache/0fc20337b17ca09128eb87e5b8fb322e5ad73e35/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/ChatApp/app/build/intermediates/pre-dexed/debug/classes_ad0c7bc324bca45648f13fd28ea069a768560282.jar" />
+    </item>
+
+</items>

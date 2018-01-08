@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/contactosNav"
+            android:icon="@drawable/contactonav"
+            android:title="Contactos" />
+        <item
+            android:id="@+id/empresaNav"
+            android:icon="@drawable/empresanav"
+            android:title="Empresas" />
+    </group>
+
+    <item android:title="Informacion">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

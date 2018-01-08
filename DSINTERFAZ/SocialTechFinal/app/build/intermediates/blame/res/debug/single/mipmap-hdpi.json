@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/matinal/Escritorio/SocialTech-master-c60495636ed0e01e0a9857359c613c0d354b869a/app/build/intermediates/res/merged/debug/mipmap-hdpi/socialtech.png",
+        "source": "/home/matinal/Escritorio/SocialTech-master-c60495636ed0e01e0a9857359c613c0d354b869a/app/src/main/res/mipmap-hdpi/socialtech.png"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/SocialTech-master-c60495636ed0e01e0a9857359c613c0d354b869a/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/matinal/Escritorio/SocialTech-master-c60495636ed0e01e0a9857359c613c0d354b869a/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/SocialTech-master-c60495636ed0e01e0a9857359c613c0d354b869a/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/matinal/Escritorio/SocialTech-master-c60495636ed0e01e0a9857359c613c0d354b869a/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    }
+]

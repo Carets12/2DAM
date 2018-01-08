@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/Menu/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/Menu/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/Menu/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/Menu/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
