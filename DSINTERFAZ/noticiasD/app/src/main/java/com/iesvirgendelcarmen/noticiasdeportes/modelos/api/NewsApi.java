@@ -17,9 +17,6 @@ import com.iesvirgendelcarmen.noticiasdeportes.modelos.Noticia;
 import java.io.StringReader;
 import java.util.List;
 
-/**
- * Created by luis on 9/12/17.
- */
 
 public class NewsApi {
 

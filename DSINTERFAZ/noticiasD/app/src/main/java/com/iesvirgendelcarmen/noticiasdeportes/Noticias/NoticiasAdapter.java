@@ -17,9 +17,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by luis on 9/12/17.
- */
 
 public class NoticiasAdapter extends BaseAdapter {
 

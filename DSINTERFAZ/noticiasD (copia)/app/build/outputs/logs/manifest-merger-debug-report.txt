@@ -1,24 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:3:5-54
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:3:5-54
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:7:5-24:19
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:7:5-24:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/matinal/.android/build-cache/696d8c86142130ea53dcc358da614c17f2eb7b94/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/b0ea539aec16998c7f8aeb9c34ff36ae5637404d/output/AndroidManifest.xml:29:5-20
@@ -31,39 +31,39 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/matin
 MERGED from [com.android.volley:volley:1.1.0] /home/matinal/.android/build-cache/68e93e710e92a37a2b691cada088f75e8f65aee8/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/5c15391116bfe6f5aec6c1b691c2b658d23e2d2a/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:13:9-65
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:13:9-65
 activity#com.iesvirgendelcarmen.noticiasdeportes.NoticiasActivity
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:14:9-20:20
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:14:19-51
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:14:19-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:18:27-74
 activity#com.iesvirgendelcarmen.noticiasdeportes.NoticiasDetalleActivity
-ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:21:9-23:60
+ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:21:9-23:60
 	android:label
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:23:13-48
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:23:13-48
 	android:name
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:22:13-52
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml:22:13-52
 uses-sdk
-INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/matinal/.android/build-cache/696d8c86142130ea53dcc358da614c17f2eb7b94/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/matinal/.android/build-cache/b0ea539aec16998c7f8aeb9c34ff36ae5637404d/output/AndroidManifest.xml:21:5-23:63
@@ -79,11 +79,11 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/matinal/.an
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
-		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
+		INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD (copia)/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/matinal/.android/build-cache/7190b931233f312422c45685ed5bb5fb36e50368/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/matinal/.android/build-cache/696d8c86142130ea53dcc358da614c17f2eb7b94/output/AndroidManifest.xml:25:5-27:41

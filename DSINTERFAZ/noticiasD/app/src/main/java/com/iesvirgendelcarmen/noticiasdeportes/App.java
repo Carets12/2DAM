@@ -3,9 +3,6 @@ package com.iesvirgendelcarmen.noticiasdeportes;
 import android.app.Application;
 import android.content.Context;
 
-/**
- * Created by luis on 11/12/17.
- */
 
 public class App extends Application {
 

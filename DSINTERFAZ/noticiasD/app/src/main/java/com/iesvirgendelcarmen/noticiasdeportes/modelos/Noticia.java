@@ -5,9 +5,6 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by luis on 9/12/17.
- */
 
 public class Noticia implements Serializable {
     private String author;
