@@ -14,6 +14,9 @@ public class Noticia implements Serializable {
     private String urlToImage;
     private Date publishedAt;
 
+    public Noticia() {
+    }
+
     public Noticia(String author, String title, String description, String url, String urlToImage, Date publishedAt) {
         this.author = author;
         this.title = title;

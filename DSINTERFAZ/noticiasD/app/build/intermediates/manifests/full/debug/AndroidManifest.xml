@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.iesvirgendelcarmen.noticiasdeportes.NoticiasDetalleActivity"
+            android:name="com.iesvirgendelcarmen.noticiasdeportes.NoticiaDetalle.NoticiaDetalleActivity"
             android:label="@string/app_detalle" />
     </application>
 

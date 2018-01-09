@@ -8,5 +8,11 @@ import java.util.List;
 public interface NoticiasContract {
     interface View {
         void mostrarNoticias(List<Noticia> noticias);
+
+        void mostrarError();
+    }
+
+    interface Presenter {
+        void cargaDatos();
     }
 }

@@ -7,8 +7,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
-import com.iesvirgendelcarmen.noticiasdeportes.NoticiasDetalleActivity;
+import com.iesvirgendelcarmen.noticiasdeportes.NoticiaDetalle.NoticiaDetalleActivity;
 import com.iesvirgendelcarmen.noticiasdeportes.R;
 import com.iesvirgendelcarmen.noticiasdeportes.modelos.Noticia;
 
@@ -25,7 +26,7 @@ public class NoticiasActivity extends AppCompatActivity implements NoticiasContr
     ListView listViewNoticias;
     @BindView(R.id.toolbar)
     Toolbar toolbar;
-    private NoticiasPresenter noticiasPresenter;
+    private NoticiasContract.Presenter noticiasPresenter;
     private NoticiasAdapter noticiasAdapter;
 
     @Override
@@ -34,9 +35,11 @@ public class NoticiasActivity extends AppCompatActivity implements NoticiasContr
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
+        setLayout();
+
         noticiasPresenter = new NoticiasPresenter(this);
         noticiasPresenter.cargaDatos();
-        setLayout();
+
     }
 
     /**
@@ -55,8 +58,8 @@ public class NoticiasActivity extends AppCompatActivity implements NoticiasContr
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //Se lanza la Activity de detalles de la noticia
-                Intent intent = new Intent(NoticiasActivity.this, NoticiasDetalleActivity.class);
-                intent.putExtra(EXTRA_NOTICIA, noticiasPresenter.listaNoticias.get(i));
+                Intent intent = new Intent(NoticiasActivity.this, NoticiaDetalleActivity.class);
+                intent.putExtra(EXTRA_NOTICIA, i);
                 startActivity(intent);
             }
         });
@@ -67,4 +70,11 @@ public class NoticiasActivity extends AppCompatActivity implements NoticiasContr
     public void mostrarNoticias(List<Noticia> noticias) {
         noticiasAdapter.updateNoticias(noticias);
     }
+
+    @Override
+    public void mostrarError() {
+        Toast.makeText(this, "Error al cargar Noticias", Toast.LENGTH_LONG).show();
+    }
+
+
 }

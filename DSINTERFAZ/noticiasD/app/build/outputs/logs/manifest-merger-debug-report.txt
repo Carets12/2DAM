@@ -62,19 +62,19 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/matinal/.g
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/matinal/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/0dbb0024840c017a1c0f83a5adc23465/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/matinal/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.0-alpha1.aar/0dbb0024840c017a1c0f83a5adc23465/AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:14:9-65
 	android:name
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:13:9-28
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:8:9-28
 activity#com.iesvirgendelcarmen.noticiasdeportes.Noticias.NoticiasActivity
 ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
@@ -89,12 +89,12 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:19:27-74
-activity#com.iesvirgendelcarmen.noticiasdeportes.NoticiasDetalleActivity
+activity#com.iesvirgendelcarmen.noticiasdeportes.NoticiaDetalle.NoticiaDetalleActivity
 ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:22:9-24:60
 	android:label
 		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:24:13-48
 	android:name
-		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:23:13-52
+		ADDED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml:23:13-66
 uses-sdk
 INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/matinal/Escritorio/CURSO/2DAM/DSINTERFAZ/noticiasD/app/src/main/AndroidManifest.xml

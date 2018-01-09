@@ -13,17 +13,17 @@ import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
 import com.iesvirgendelcarmen.noticiasdeportes.App;
 import com.iesvirgendelcarmen.noticiasdeportes.modelos.Noticia;
+import com.iesvirgendelcarmen.noticiasdeportes.modelos.NoticiasDataSource;
 
 import java.io.StringReader;
 import java.util.List;
 
-
-public class NewsApi {
+public class NewsApi implements NoticiasDataSource {
 
     private String ENDPOINT_TOP = "https://newsapi.org/v2/top-headlines?sources=%s&apiKey=%s";
     private String ENDPOINT_TODO = "https://newsapi.org/v2/everything?sources=%s&apiKey=%s";
     private String SOURCE = "marca";
-    private String APIKEY = "63c8ed347d104c67b28f4360a57edd17";
+    private String APIKEY = "e9e3cbfdc42c4ab295a4cac9f7247401";
     private String url;
 
     public NewsApi() {
@@ -36,10 +36,10 @@ public class NewsApi {
      * <p>
      * Se hace uso de la librería Volley y Gson
      *
-     * @param respuesta Cuando se ha obtenido y procesado la lista se llama al callback
+     * @param callback Cuando se ha obtenido y procesado la lista se llama al callback
      */
-    public void ultimasNoticias(final Callback respuesta) {
-
+    @Override
+    public void getNoticias(final CargaNoticiasCallback callback) {
         //Se obtiene la cola de peticiones. Sólo debe existir una instancia de Volley
         //para asegurar correcto funcionamiento de la cache.
         RequestQueue req = VolleySingleton.getInstance(App.getAppContext()).getRequestQueue();
@@ -61,14 +61,13 @@ public class NewsApi {
                         }.getType());
 
                         //Llamo al callback para pasar la lista de noticias
-                        respuesta.getLista(noticias);
+                        callback.onNoticiasCargadas(noticias);
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-
-
+                        callback.onNoticiaError();
                     }
                 });
 
@@ -76,11 +75,10 @@ public class NewsApi {
         req.add(stringRequest);
     }
 
-    /**
-     * Interfaz para el callback de la consulta GET
-     */
-    public interface Callback {
-        void getLista(List<Noticia> noticias);
+    @Override
+    public void getNoticia(int posicion, CargaNoticiaCallback callback) {
+        //No existe una url en newsapi.org para consultar una noticia concreta.
+        //No se implementa
     }
 
 }
