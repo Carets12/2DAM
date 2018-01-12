@@ -1,26 +1,17 @@
 <?php
-  class Cliente {
 
-    private $nombre;
-    private $apellidos;
-    private $dni;
-    private $email;
+require('Persona.php');
+  class Cliente extends Persona {
 
-    public function _construct(){
-      $this->nombre="";
-      $this->apelidos="";
-      $this->dni="";
-      $this->email="";
+    private $id_cliente;
+
+    function getId(){
+      return $this->id_cliente;
     }
 
-    public function getNombre(){
-      return $this->nombre;
+    function setId($dato){
+      return $this->id_cliente = $dato;
     }
-
-    public function setNombre($dato){
-       $this->nombre = $dato;
-    }
-
   }
 
 ?>
