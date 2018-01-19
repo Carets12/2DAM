@@ -3,6 +3,7 @@ package es.vcarmen.dialogos02;
 import android.app.Dialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -34,7 +35,8 @@ public class Dialogos02 extends AppCompatActivity {
         w.setFlags(flag,flag);
         dialog.setTitle("DIÁLOGO PERSONAL");
         dialog.setContentView(R.layout.dialogo);
-        boton.setOnClickListener(new Dialogos02.Aceptar);
+       
+        boton.setOnClickListener(new Dialogos02.Aceptar());
         return dialog;
     }
 
@@ -42,17 +44,20 @@ public class Dialogos02 extends AppCompatActivity {
 
         @Override
         public void onClick(View view) {
+
             EditText editText1 = findViewById(R.id.EditText1);
             EditText editText2 = findViewById(R.id.EditText2);
             String username = editText1.getText().toString().trim();
             String password = editText2.getText().toString().trim();
 
             if(username.matches("Leonardo") && password.matches("Davinci")){
-
                 dismissDialog(id);
+               // dismissDialog(0);
 
             }else {
                 tvd.setText("Datos Incorrectos");
+                //showDialog(0);
+
             }
         }
     }

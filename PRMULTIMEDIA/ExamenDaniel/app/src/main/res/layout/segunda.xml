@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.vcarmen.examendaniel.ExamenDaniel">
+
+    <TextView
+        android:id="@+id/texto5"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEGUNDA ACTIVIDAD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="#daa9411b"
+        />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEGUNDA ACTIVIDAD"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#da1463b7"
+         />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEGUNDA ACTIVIDAD"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#da1ba930"
+        />
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEGUNDA ACTIVIDAD"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#da1b98a9"
+        />
+
+</LinearLayout>

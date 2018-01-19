@@ -27,20 +27,4 @@
         android:textSize="16sp"
         />
 
-    <Button
-        android:id="@+id/boton1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="MOSTRAR DIÁLOGO2"
-        android:textSize="16sp"
-        />
-
-    <Button
-        android:id="@+id/boton2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="MOSTRAR DIÁLOGO3"
-        android:textSize="16sp"
-        />
-
 </LinearLayout>
