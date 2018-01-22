@@ -11,10 +11,10 @@ import com.google.gson.annotations.SerializedName;
 
         @SerializedName("_id")
         @Expose
-        private Integer id;
+        private Integer _id;
         @SerializedName("first_name")
         @Expose
-        private String firstName;
+        private String _firstName;
         @SerializedName("last_name")
         @Expose
         private String lastName;
@@ -38,26 +38,26 @@ import com.google.gson.annotations.SerializedName;
          */
         public User(Integer id, String firstName, String lastName, String email) {
             super();
-            this.id = id;
-            this.firstName = firstName;
+            this._id = id;
+            this._firstName = firstName;
             this.lastName = lastName;
             this.email = email;
         }
 
-        public Integer getId() {
-            return id;
+        public Integer get_id() {
+            return _id;
         }
 
-        public void setId(Integer id) {
-            this.id = id;
+        public void set_id(Integer _id) {
+            this._id = _id;
         }
 
-        public String getFirstName() {
-            return firstName;
+        public String get_firstName() {
+            return _firstName;
         }
 
-        public void setFirstName(String firstName) {
-            this.firstName = firstName;
+        public void set_firstName(String _firstName) {
+            this._firstName = _firstName;
         }
 
         public String getLastName() {
@@ -79,7 +79,7 @@ import com.google.gson.annotations.SerializedName;
         @Override
         public String toString() {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append("User: ").append("-").append(firstName).append("-")
+            stringBuilder.append("User: ").append("-").append(_firstName).append("-")
                     .append(lastName).append("-").append(email);
             return stringBuilder.toString();
         }

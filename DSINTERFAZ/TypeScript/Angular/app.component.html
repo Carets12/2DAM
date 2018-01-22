@@ -1,0 +1,16 @@
+<p>Escriba aquí su nombre:</p>
+<input type="text" [(ngModel)]="nombre">
+<hr/>
+<h1>
+  Hola {{nombre}}
+</h1>
+<button (click) = "cambiarNombre('Maria')">
+  Cambiar Nombre
+</button>
+<hr/>
+<h1 *ngIf="contador < 10">
+  Contador: {{contador}}
+</h1>
+<button (click) = "incrementarContador(contador)">
+  Contador
+</button>

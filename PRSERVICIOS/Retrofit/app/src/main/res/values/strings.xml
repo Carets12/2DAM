@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UserRetrofit</string>
+    <string name="title_enter_post">Crear Usuario</string>
+    <string name="hint_id">Id</string>
+    <string name="hint_firtsName">Firts Name</string>
+    <string name="hint_LastName">Last Name</string>
+    <string name="hint_Email">Email</string>
+    <string name="crearUsuario">Crear Usuario</string>
+    <string name="hint_lastName">Last Name</string>
 </resources>

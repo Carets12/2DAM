@@ -1,0 +1,11 @@
+<p>Nombre:</p>
+<input type="text" [(ngModel)]="nombre">
+<p>Apellidos:</p>
+<input type="text" [(ngModel)]="apellidos">
+
+<p *ngIf="nombre.length==0">Por favor, rellene el campo nombre</p>
+<p *ngIf="apellidos.length==0">Por favor, rellene el campo apellidos</p>
+<p>{{nombre}}{{apellidos}}</p>
+
+
+ 

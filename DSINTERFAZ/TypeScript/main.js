@@ -1,6 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var persona_1 = require("./persona");
+var suma = 0;
 var per = new Array();
 per.push(new persona_1.Persona('Daniel', 'Sierra Ráez', 5000));
 per.push(new persona_1.Persona('Ramón', 'Gomez Lopez', 2000));
@@ -11,4 +12,8 @@ per.push(p2);
 for (var _i = 0, per_1 = per; _i < per_1.length; _i++) {
     var pe = per_1[_i];
     console.log(pe);
+    suma = suma + pe.getSalario();
 }
+//Sumatoria de salarios
+console.log("La suma salarial de las personas es de: " + suma);
+console.log("La suma salarial de las personas con un metodo: " + persona_1.Persona.getSalarioTotal(per));

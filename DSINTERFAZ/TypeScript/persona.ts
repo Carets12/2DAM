@@ -33,6 +33,14 @@ constructor (nombre:string, apellidos:string, salario:number){
 
     }
 
+    static getSalarioTotal(trabajadores:Array<Persona>):number {
+        let total = 0;
+        for(let emp of trabajadores){
+            total += emp.getSalario();
+        }
+        return total;
+    }
+
     getSalario(){
         return this.salario;
     }

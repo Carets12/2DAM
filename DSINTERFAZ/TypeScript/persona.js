@@ -21,6 +21,14 @@ var Persona = /** @class */ (function () {
     Persona.prototype.setSalario = function (salario) {
         this.salario = salario;
     };
+    Persona.getSalarioTotal = function (trabajadores) {
+        var total = 0;
+        for (var _i = 0, trabajadores_1 = trabajadores; _i < trabajadores_1.length; _i++) {
+            var emp = trabajadores_1[_i];
+            total += emp.getSalario();
+        }
+        return total;
+    };
     Persona.prototype.getSalario = function () {
         return this.salario;
     };
