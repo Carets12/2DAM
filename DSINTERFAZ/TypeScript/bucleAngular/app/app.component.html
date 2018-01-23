@@ -1,0 +1,31 @@
+
+<div>
+  Nombre:     <input class ="nombre" type="text" [(ngModel)]="nombre"/><br>
+  Apellidos:  <input class ="apellidos" type="text" [(ngModel)]="apellidos"/><br>
+  Edad:  <input class ="edad" type="text" [(ngModel)]="edad"/><br>
+  Activo:     <input class ="activo" type="checkbox" [(ngModel)]="activo"/><br>
+  Sexo:    <br> 
+  Masculino  <input type="radio" [(ngModel)]="sexo" value="true"/>
+  Femenino  <input type="radio" [(ngModel)]="sexo" value="false"/>
+
+<button (click) = "addPersona()">
+  Añadir Contacto
+</button>
+</div>
+<hr/>
+<p class="inactivas">Las personas inactivas son:</p>
+<ol >
+  <template ngFor let-p [ngForOf]="personasDinamico">
+  <li class="listaInactivas"*ngIf="p.activo == false">{{p.nombre}} {{p.apellidos}} --{{p.toString()}}--</li>
+  </template>
+</ol>
+<hr/>
+<p class="activas">Las personas activas son:</p>
+<ol >
+    <template ngFor let-p [ngForOf]="personasDinamico">
+    <li class="listaActivas" *ngIf="p.activo == true">{{p.nombre}} {{p.apellidos}} --{{p.toString()}}</li>
+    </template>
+  </ol>
+<hr/>
+<p>El número total de personas en la agenda es: {{personasDinamico.length}}</p>
+<p>{{nombre}} {{apellidos}} {{edad}} {{activo}} {{sexo}}</p>
