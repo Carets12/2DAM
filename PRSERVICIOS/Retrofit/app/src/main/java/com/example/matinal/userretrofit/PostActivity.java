@@ -1,4 +1,4 @@
-package com.example.matinal.userretrofit;
+package com.example.matinal.userretrofit.data;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.matinal.userretrofit.R;
 import com.example.matinal.userretrofit.data.model.User;
 import com.example.matinal.userretrofit.data.remote.APIService;
 import com.example.matinal.userretrofit.data.remote.ApiUtils;
@@ -61,27 +62,28 @@ public class PostActivity extends AppCompatActivity {
         });
     }
 
-    private void sendPost(User user){
+    private void sendPost(final User user){
         mAPIService.savePost(user).enqueue(new Callback<User>() {
             @Override
             public void onResponse(Call<User> call, Response<User> response) {
                 Log.e("UI sendPost", "post sudmitted to Api" + response.body().toString());
-                showResponse(response.body().toString());
+                showResponse(user);
             }
 
             @Override
             public void onFailure(Call<User> call, Throwable t){
                 Log.e("UI sendPost", "error en el servicio");
-                Toast.makeText(getApplicationContext(), "Error en el servicio", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),
+                        "Error en el servicio", Toast.LENGTH_SHORT).show();
             }
         });
     }
 
-    public void showResponse(String response) {
+    public void showResponse(User user) {
         if(mResponseTv.getVisibility() == View.GONE) {
             mResponseTv.setVisibility(View.VISIBLE);
         }
-        mResponseTv.setText(response);
+        mResponseTv.setText(user.toString());
     }
 
 }
