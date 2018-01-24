@@ -15,6 +15,8 @@ public class Segunda extends AppCompatActivity{
 TextView texto2;
 TextView texto3;
 TextView texto4;
+TextView texto5;
+TextView texto6;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -24,6 +26,8 @@ TextView texto4;
         texto2 = findViewById(R.id.texto2);
         texto3 = findViewById(R.id.texto3);
         texto4 = findViewById(R.id.texto4);
+        texto5 = findViewById(R.id.texto5);
+        texto6 = findViewById(R.id.texto6);
 
         Bundle extras = getIntent().getExtras();
 
@@ -36,6 +40,9 @@ TextView texto4;
         texto3.setText(fecha);
 
         texto4.setText(extras.get("extra").toString());
+
+        texto6.append(extras.get("enero").toString()+extras.get("febrero").toString()+
+                extras.get("marzo").toString()+extras.get("abril").toString()+extras.get("mayo").toString());
 
     }
 }
