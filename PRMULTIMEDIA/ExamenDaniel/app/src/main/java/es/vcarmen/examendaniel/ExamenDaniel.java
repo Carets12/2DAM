@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -31,7 +32,21 @@ public class ExamenDaniel extends AppCompatActivity {
         boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                llamada();
+
+                Intent llamar = new Intent(Intent.ACTION_CALL, Uri.parse("tel:697869813"));
+                if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return;
+                }
+                startActivity(llamar);
+
+               // llamada();
             /*
             Intent ejemplo = new Intent(Intent.ACTION_VIEW);
                 ejemplo.setData(Uri.parse("https://www.iesvirgendelcarmen.com/"));
@@ -47,21 +62,6 @@ public class ExamenDaniel extends AppCompatActivity {
                 startActivity(llamada);
             */
             /*
-                Intent llamada = new Intent(Intent.ACTION_CALL,
-                        Uri.parse("tel:697869813"));
-                if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    // TODO: Consider calling
-                    //    ActivityCompat#requestPermissions
-                    // here to request the missing permissions, and then overriding
-                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                    //                                          int[] grantResults)
-                    // to handle the case where the user grants the permission. See the documentation
-                    // for ActivityCompat#requestPermissions for more details.
-                    return;
-                }
-                startActivity(llamada);
-             */
-            /*
             Intent ejemplo = new Intent(Intent.ACTION_VIEW);
             ejemplo.setData(Uri.parse("geo:0,0?z=4&q=restaurantes"));
             startActivity(ejemplo);
@@ -72,16 +72,16 @@ public class ExamenDaniel extends AppCompatActivity {
                 startActivity(eje);
             */
 
-            Intent eje = new Intent(Intent.ACTION_VIEW, Uri.parse("content://contacts/people/"));
+            /*Intent eje = new Intent(Intent.ACTION_VIEW, Uri.parse("content://contacts/people/"));
             startActivity(eje);
-
+            */
 
             }
         });
     }
-
-   public void llamada (){
 /*
+   public void llamada (){
+
        Calendar calendarNow = new GregorianCalendar(TimeZone.getTimeZone("Europe/Madrid"));
        int anio = calendarNow.get(Calendar.YEAR);
        int mes = calendarNow.get(Calendar.MONTH);
@@ -111,8 +111,8 @@ public class ExamenDaniel extends AppCompatActivity {
        intent.putExtra("mayo","Mayo");
 
        startActivity(intent);
-*/
-    }
+
+    }*/
 
 
 }
