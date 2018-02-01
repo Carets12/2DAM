@@ -19,6 +19,6 @@ public class Procesos2 {
         commands.add("ls");
         commands.add("-ls");
         ProcessBuilder pBuilder = new ProcessBuilder(commands);
-        Process process = pBuilder.directory(new File("/home/psp"));
+        //Process process = pBuilder.directory(new File("/home/psp"));
     }
 }
