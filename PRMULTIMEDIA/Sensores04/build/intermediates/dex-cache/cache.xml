@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\danic\Documentos\GitHub\2DAM\PRMULTIMEDIA\Sensores04\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\danic\Documentos\GitHub\2DAM\PRMULTIMEDIA\Sensores04\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_133277807457a27ca7bf4f44044743481b58ab5f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\danic\Documentos\GitHub\2DAM\PRMULTIMEDIA\Sensores04\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1e15bf39a3e562e6c8efd3faaff0ffb02739aaea">
+        <dex dex="D:\danic\Documentos\GitHub\2DAM\PRMULTIMEDIA\Sensores04\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1ca8de24977dbc5d47df16bc57bfab13a2730dc2\classes.dex" />
+    </item>
+
+</items>

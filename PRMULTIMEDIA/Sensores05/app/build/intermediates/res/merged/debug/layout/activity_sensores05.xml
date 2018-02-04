@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#eef5ee"
+    android:layout_height="match_parent"
+    tools:context="es.vcarmen.sensores05.Sensores05">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE ORIENTACIÓN"
+        android:layout_gravity="center"
+        android:textSize="23sp"
+        android:textColor="#020202"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AZIMUT"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#0033d9"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:id="@+id/azimut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azimut"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#0033d9"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VERTICALIDAD"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#0a7912"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:id="@+id/verticalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verticalidad"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#0a7912"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ILUMINACION LATERAL"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#9c6206"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:id="@+id/lateralidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lateralidad"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#9c6206"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORIENTACIÓN"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#ba0b0b"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orientación"
+        android:textSize="22sp"
+        android:textColor="#ba0b0b"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:id="@+id/orientacion"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO DE LECTURAS"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#5b0487"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cero"
+        android:textSize="17sp"
+        android:textColor="#5b0487"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        android:id="@+id/contador"
+        />
+
+</LinearLayout>
+

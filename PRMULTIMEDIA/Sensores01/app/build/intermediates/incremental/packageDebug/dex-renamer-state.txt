@@ -1,0 +1,7 @@
+#Tue Dec 26 23:09:29 CET 2017
+base.0=D\:\\danic\\Escritorio\\FIREBASE2\\Sensores01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d0eb9f883967479ec3d0dd84a992a2be4318d3c4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\danic\\Escritorio\\FIREBASE2\\Sensores01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7414e5b771d0cf952bbf856438798a0578eb9b31\\classes.dex
+base.1=D\:\\danic\\Escritorio\\FIREBASE2\\Sensores01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7414e5b771d0cf952bbf856438798a0578eb9b31
+file.0=D\:\\danic\\Escritorio\\FIREBASE2\\Sensores01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d0eb9f883967479ec3d0dd84a992a2be4318d3c4\\classes.dex

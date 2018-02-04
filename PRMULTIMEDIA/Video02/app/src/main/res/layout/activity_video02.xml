@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#853c8194"
+    tools:context="es.vcarmen.video02.Video02">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="#a71616"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="REPRODUCIENDO VIDEO"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#a71616"
+        android:textStyle="bold"
+        android:text="FICHERO DE VIDEO"
+        />
+
+   <VideoView
+       android:id="@+id/video"
+       android:layout_width="match_parent"
+       android:layout_gravity="center"
+       android:layout_height="580dp"
+       android:layout_margin="10sp"
+       />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_gravity="center"
+       android:textSize="21sp"
+       android:textColor="#a71616"
+       android:textStyle="bold"
+       android:layout_height="wrap_content"
+       android:text="CLASE VIDEOVIEW"
+       />
+
+</LinearLayout>

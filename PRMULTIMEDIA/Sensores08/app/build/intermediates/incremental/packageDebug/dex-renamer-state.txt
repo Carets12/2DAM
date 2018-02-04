@@ -1,0 +1,7 @@
+#Thu Dec 28 14:27:23 CET 2017
+base.0=D\:\\danic\\Documentos\\GitHub\\2DAM\\PRMULTIMEDIA\\Sensores08\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b32069220ab79df5bdfa7762bb1af1524bd0f380
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\danic\\Documentos\\GitHub\\2DAM\\PRMULTIMEDIA\\Sensores08\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5d801ea4b05414038289d6f6991d935155a924c4\\classes.dex
+base.1=D\:\\danic\\Documentos\\GitHub\\2DAM\\PRMULTIMEDIA\\Sensores08\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5d801ea4b05414038289d6f6991d935155a924c4
+file.0=D\:\\danic\\Documentos\\GitHub\\2DAM\\PRMULTIMEDIA\\Sensores08\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b32069220ab79df5bdfa7762bb1af1524bd0f380\\classes.dex
