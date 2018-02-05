@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>CheckList</h1>
+<p *ngIf="arrayVacio()">La lista está vacía.</p>
+<hr/>
+<ol>
+<template ngFor let-t [ngForOf]="listaDeTareas">
+  <li>
+    <componenteHijo [miTarea]= "t" (eventoBorrar)="eliminarTarea($event)"></componenteHijo>
+  </li>
+</template>
+</ol>
+<hr/>
+<input type="text" [(ngModel)]="nombreTarea"><button (click)="addTarea()">Añadir</button>
+
+

@@ -1,0 +1,24 @@
+<h1>
+A Checklist
+</h1>
+<br>
+
+<p *ngIf = "arrayVacio()">There are no items yet.</p>
+<ol>
+  <p>Lista:</p>
+  <template ngFor let-p [ngForOf]="listaDinamica">
+    <form>
+      <table>
+          <tr><td>ToDo</td><td>Doing</td><td>Done</td></tr>
+          <tr><td><input type="radio" [(ngModel)] = "p.estado" name = "grupo" value="Todo"/></td>
+          <td><input type="radio" [(ngModel)] = "p.estado" name = "grupo" value="Doing"/></td>
+          <td><input type="radio" [(ngModel)] = "p.estado" name = "grupo" value="Done"/> <span [class] = "p.estado">{{p.id}} {{p.nombre}} {{p.estado}}-- {{p.toString()}}</span><button (click) = "removeProducto(p.id)">Borrar Producto</button><br></td>
+          </tr>
+      </table>
+    </form>  
+  </template>
+</ol>
+<hr>
+<div>
+  Nombre: <input type="text" [(ngModel)] = "nombre"/><button (click) = "addProducto()">Add</button><br>
+</div>

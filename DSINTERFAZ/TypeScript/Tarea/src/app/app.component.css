@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+
+.Todo {
+    color: red;
+}
+
+.Doing {
+    color: blue;
+}
+
+.Done {
+    color: green;
+}
