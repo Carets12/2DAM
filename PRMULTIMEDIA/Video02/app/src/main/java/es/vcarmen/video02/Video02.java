@@ -18,8 +18,8 @@ public class Video02 extends AppCompatActivity {
 
         reproductor = findViewById(R.id.video);
 
-       reproductor.setVideoURI(Uri.parse("android.resource://"+getPackageName() + "/" +R.raw.the_animated_history_of_poland));
-       reproductor.setMediaController(new MediaController(this));
+        reproductor.setVideoURI(Uri.parse("android.resource://"+getPackageName() + "/" +R.raw.the_animated_history_of_poland));
+        reproductor.setMediaController(new MediaController(this));
 
         reproductor.setMediaController(mediaController);
         //mediaController.setAnchorView(reproductor);
