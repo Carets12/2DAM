@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#52b3b3"
+    tools:context="com.example.matinal.actividadimagen05.Imagen05">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="1dp"
+        android:textColor="#122222"
+        android:textStyle="bold"
+        android:text="TRABAJANDO CON BITMAP"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="1dp"
+        android:gravity="center"
+        android:text="TIEMPO DE PROCESADO"
+        />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:width="1dp"
+        android:layout_height="wrap_content"
+        android:text="REESCALAR BITMAP"
+        />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:width="1dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/leonardo"
+        />
+
+</LinearLayout>
